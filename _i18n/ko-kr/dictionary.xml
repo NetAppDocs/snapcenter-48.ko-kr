@@ -16,7 +16,6 @@
   <block id="d1024e540ddbde0c895907728f551025" category="paragraph">이 예는 2015년 1월 29일부터 2015년 2월 3일까지 백업에 대한 자세한 정보를 표시합니다.</block>
   <block id="4544315cf8cf4a9ef7dd5ae463d9557d" category="list-text">Restore-SmBackup cmdlet을 사용하여 백업에서 데이터를 복원합니다.</block>
   <block id="186767ddfa4a5b30e2b4a7d5eb5fce25" category="inline-link">SnapCenter 소프트웨어 cmdlet 참조 가이드</block>
-  <block id="5f3dbd65abc0c8e09475825857078de8" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="e7fe1684e0925197f6b04ba8221741ad" category="paragraph">PowerShell cmdlet을 사용하여 데이터 보호 작업을 수행하기 전에 SVM(Storage Virtual Machine) 연결과 자격 증명을 생성해야 합니다.</block>
   <block id="d428ebb7ac02e1484781b38a799a4f99" category="paragraph">* 필요한 것 *</block>
   <block id="2d3dd877f482d5e495bedaecc930ab1e" category="list-text">PowerShell cmdlet을 실행할 수 있도록 PowerShell 환경을 준비해야 합니다.</block>
@@ -59,11 +58,9 @@
   <block id="54cc5efef9b7edd3fd699fc1e5a0ff50" category="list-text"><block ref="9e5776de837624f6470d45e3ceec892f" category="inline-image-macro-rx" type="image"></block> 경고와 함께 완료되었거나 경고로 인해 시작할 수 없습니다</block>
   <block id="18dd8bff286ad496b3933c00b69968bc" category="inline-image-macro">확인 작업이 대기 중입니다</block>
   <block id="d208aa08a03da9a8a8e5bd96ad0fedae" category="list-text"><block ref="ef6f1c216f28d7814323778090034017" category="inline-image-macro-rx" type="image"></block> 대기열에 있습니다</block>
-  <block id="cc9dbc9fb7810be481501a3376208520" category="list-text"><block ref="c646c5e33fd3a6c1e32ebcb9f24cc88e" category="inline-image-macro-rx" type="image"></block> 취소됨</block>
   <block id="b40a6c0b08ac99c86eb676e2689c6996" category="list-text">왼쪽 탐색 창에서 * 모니터 * 를 클릭합니다.</block>
   <block id="c0a63413cafa6a465f587d5835701c87" category="list-text">모니터 페이지에서 * 작업 * 을 클릭합니다.</block>
   <block id="3160f4991d365988a865df5567f2147f" category="list-text">작업 페이지에서 다음 단계를 수행하십시오.</block>
-  <block id="6044156c6f0da8e8ec296448fa2d5fa5" category="list-text">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 백업 작업만 나열되도록 목록을 필터링합니다.</block>
   <block id="7407325f29b504f9c8b87ec8da503815" category="list-text">시작 및 종료 날짜를 지정합니다.</block>
   <block id="e10f73b33c1a0725b8812f08089e7788" category="list-text">Type * 드롭다운 목록에서 * Backup * 을 선택합니다.</block>
   <block id="1f8a6ebe3d4d002c37961084ee957772" category="list-text">Status * (상태 *) 드롭다운에서 백업 상태를 선택합니다.</block>
@@ -115,7 +112,6 @@
   <block id="883f217b99bc288ae19aa7d6d60b021f" category="paragraph">작업 페이지를 사용하여 여러 SnapCenter 복원 작업의 진행률을 모니터링할 수 있습니다. 작업 진행률을 확인하여 작업이 언제 완료되는지 또는 문제가 있는지 확인할 수 있습니다.</block>
   <block id="ee9237c14a6c4cc7b6b4a10fbf38aa79" category="paragraph">복원 후 상태는 복원 작업 후 리소스의 상태와 수행할 수 있는 추가 복원 작업에 대해 설명합니다.</block>
   <block id="ec0ce2a8340fde4668c9c369e1e0a781" category="paragraph">작업 페이지에 다음 아이콘이 나타나고 작업의 상태를 나타냅니다.</block>
-  <block id="1bfa745c5533e2551a662571c60d9a71" category="list-text">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 복원 작업만 나열되도록 목록을 필터링하려면</block>
   <block id="72703ba150df91059707035aef45dd74" category="list-text">Type * 드롭다운 목록에서 * Restore * 를 선택합니다.</block>
   <block id="a28133afd7846d1e77aa696930846108" category="list-text">Status * (상태 *) 드롭다운 목록에서 복원 상태를 선택합니다.</block>
   <block id="e12538143afda34a18dc094aa39a01ff" category="list-text">성공적으로 완료된 작업을 보려면 * 적용 * 을 클릭합니다.</block>
@@ -163,7 +159,6 @@
   <block id="f07d683ff584804916c5fb4327c3415a" category="list-text">왼쪽 탐색 창에서 * 모니터 * &gt; * 작업 * 을 클릭합니다.</block>
   <block id="69af9660907978082fde059126622d8c" category="list-text">작업을 선택한 다음 * 작업 취소 * 를 클릭합니다.</block>
   <block id="0e8f9ce78b94dad391f7bf1190e4c848" category="paragraph">작업 창</block>
-  <block id="385678dd00c5a8c59bf6e2b642301b5d" category="list-text">백업 작업을 시작한 후 * 를 클릭합니다<block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block>* 를 클릭합니다.</block>
   <block id="5605734dc1e0ba578df46e1ad0adc35e" category="list-text">작업을 선택합니다.</block>
   <block id="87d17d6ca32a6bc54b23a511eb3a0f58" category="list-text">작업 세부 정보 페이지에서 * 작업 취소 * 를 클릭합니다.</block>
   <block id="569d7ad91ac8653d08a314e2f0c4f16d" category="paragraph">작업이 취소되고 리소스가 이전 상태로 돌아갑니다.</block>
@@ -249,7 +244,6 @@
   <block id="16fdd92def5a71313d6535c74ef67b81" category="paragraph">네트워크 인터페이스가 표시됩니다</block>
   <block id="5999e4ab912c7c1d8aa6fd2225491ef2" category="paragraph">SVM</block>
   <block id="18c6c7b07148849996bd7da366d6bf60" category="paragraph">작업 페이지를 사용하여 SnapCenter 클론 작업의 진행률을 모니터링할 수 있습니다. 작업 진행률을 확인하여 작업이 언제 완료되는지 또는 문제가 있는지 확인할 수 있습니다.</block>
-  <block id="62db5b4d65c0cdab012121187a77e764" category="list-text">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 클론 작업만 나열되도록 목록을 필터링합니다.</block>
   <block id="4cfa68aad234b91494e417f8012ca40d" category="list-text">Type * 드롭다운 목록에서 * Clone * 을 선택합니다.</block>
   <block id="7c18f9fe3e82229bbf88d4133dde72bd" category="list-text">Status * (상태 *) 드롭다운 목록에서 클론 상태를 선택합니다.</block>
   <block id="33edcafc3b101b5da89793db6c9151a5" category="list-text">성공적으로 완료된 작업을 보려면 * 적용 * 을 클릭합니다.</block>
@@ -272,7 +266,6 @@
   <block id="efcc8219675b74be2ea4ec68fc2b81f2" category="paragraph">보기 목록에서 * 경로 * 를 선택합니다.</block>
   <block id="c0a1b33f51c24ec7a0237c45c3a450f8" category="list-text">목록에서 적절한 리소스를 선택합니다.</block>
   <block id="e984402842ada9bf4703b2df6ce206b3" category="paragraph">리소스 토폴로지 페이지가 표시됩니다.</block>
-  <block id="e3bd3cf6b34ce0697d272736f31e2591" category="list-text">복사본 관리 보기에서 복제된 리소스(예: 데이터베이스 또는 LUN)를 선택한 다음 * 를 클릭합니다<block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>*.</block>
   <block id="f5cfd65b6cd03934d8269e3f878035d8" category="list-text">분할할 클론의 예상 크기와 애그리게이트에서 사용할 수 있는 필수 공간을 검토한 다음 * 시작 * 을 클릭합니다.</block>
   <block id="8b9460bf38a68108bcdd278a386b3156" category="list-text">모니터 * &gt; * 작업 * 을 클릭하여 작업 진행 상황을 모니터링합니다.</block>
   <block id="ff09e99880e5a1ea7500cf09b4e8de2a" category="paragraph">SMCore 서비스가 다시 시작되면 클론 분할 작업이 응답하지 않습니다. Stop-SmJob cmdlet을 실행하여 클론 분할 작업을 중지한 다음 클론 분할 작업을 다시 시도해야 합니다.</block>
@@ -352,7 +345,6 @@
   <block id="1b782c06b199c89589ed8bcf1a6ca9ab" category="paragraph">이 디렉터리에 둘 이상의 CRL 파일을 배치할 수 있습니다. 들어오는 인증서는 각 CRL에 대해 확인됩니다.</block>
   <block id="508d1ec07ef963e40e719409d5aa0885" category="paragraph">작업 창에는 가장 최근에 수행한 작업 5개가 표시됩니다. 작업 창은 작업이 시작된 시점과 작업의 상태도 표시합니다.</block>
   <block id="07c32e173146fec37a6631a5839e7295" category="paragraph">작업 창에는 백업, 복원, 클론 및 예약된 백업 작업에 대한 정보가 표시됩니다. SQL Server용 플러그인 또는 Exchange Server용 플러그인을 사용하는 경우 작업 창에 다시 시드된 작업에 대한 정보도 표시됩니다.</block>
-  <block id="9db06cff1e8eb604a482b82e3fc0ca83" category="list-text">을 클릭합니다 <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block> 를 클릭하여 가장 최근 작업 5개를 확인합니다.</block>
   <block id="1bda1d3d1b1aa30c230856d37acc2121" category="paragraph">작업 중 하나를 클릭하면 작업 세부 정보가 작업 세부 정보 페이지에 나열됩니다.</block>
   <block id="d4d451fe9bcfe7f834b0f3648f4a43d2" category="paragraph">설치된 디지털 인증서를 활성화하려면 Windows 호스트 플러그인 서비스를 사용하여 CA 인증서를 구성해야 합니다.</block>
   <block id="0038a64c6c7736efde380d3c84157a59" category="paragraph">SnapCenter 서버 및 CA 인증서가 이미 배포된 모든 플러그인 호스트에서 다음 단계를 수행합니다.</block>
@@ -445,7 +437,6 @@
   <block id="ae814120fc24f0ac821b8f45c0995ad3" category="list-text">역할을 만드는 동안 이 역할의 모든 구성원이 다른 구성원 개체 * 를 볼 수 있고 사용자\그룹 페이지에서 작동할 수 있는 경우 해당 역할을 사용하는 동안 다른 구성원의 대기 중인 클론 작업을 취소할 수 있습니다.</block>
   <block id="e634bbfa951fb769598deb5b24346cbc" category="paragraph">* 단계 *</block>
   <block id="95486229c23ce90321c3008d59008ce7" category="list-text">작업을 선택하고 * 작업 취소 * 를 클릭합니다.</block>
-  <block id="ad65738dc09fb91267ca71436089581a" category="list-text">클론 작업을 시작한 후 을 클릭합니다 <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block> 를 클릭하여 가장 최근 작업 5개를 확인합니다.</block>
   <block id="588f36766e9f6a960b4f3c2a83a4a69b" category="paragraph">대기열에 있는 복원 작업을 취소할 수 있습니다.</block>
   <block id="291fce3784ace5b5b71f5f0d1a3acecd" category="paragraph">복원 작업을 취소하려면 SnapCenter 관리자 또는 작업 소유자로 로그인해야 합니다.</block>
   <block id="d54432dcfb60b8b22d76998e3ae88f6c" category="list-text">Monitor* 페이지 또는 * Activity* 창에서 대기 중인 복원 작업을 취소할 수 있습니다.</block>
@@ -454,7 +445,6 @@
   <block id="f319250163ff24dbbbd6e1e43498fcfe" category="list-text">취소할 수 없는 복원 작업에는 * 작업 취소 * 버튼이 비활성화됩니다.</block>
   <block id="0a0d2a6c3f4b6cd698fb18dba219d5d1" category="list-text">역할을 만드는 동안 이 역할의 모든 구성원이 사용자\그룹 페이지의 다른 구성원 개체를 보고 작업할 수 있음 * 을 선택한 경우 해당 역할을 사용하는 동안 다른 구성원의 대기 중인 복원 작업을 취소할 수 있습니다.</block>
   <block id="8884d35f96afbdd086b8c2ab66a004f1" category="list-text">작업을 선택하고 * 작업 취소 * 를 클릭합니다.</block>
-  <block id="9fa4e15a7c52779b0b728e143fd56a21" category="list-text">복원 작업을 시작한 후 을 클릭합니다 <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block> 를 클릭하여 가장 최근 작업 5개를 확인합니다.</block>
   <block id="cd2e2c723c403abdc6897c3987837652" category="paragraph">인증서 thumbprint는 인증서를 식별하는 16진수 문자열입니다. 썸프린트는 썸프린트 알고리즘을 사용하여 인증서 컨텐츠에서 계산됩니다.</block>
   <block id="8b2033ee038f3ffe4ada7fc0ecc59fbe" category="list-text">GUI에서 다음을 수행합니다.</block>
   <block id="3c409c2d84087302c5de3855b68c7aab" category="list-text">인증서를 두 번 클릭합니다.</block>
@@ -486,8 +476,6 @@
   <block id="eebed0ac34228e0e0f38c9d860604c29" category="list-text">시스템 데이터베이스에 액세스하려면 HDB SQL OS 사용자를 구성해야 합니다. HDB SQL OS 사용자가 테넌트 데이터베이스에만 액세스하도록 구성된 경우 검색 작업이 실패합니다.</block>
   <block id="883766d38a60b014b1f295ce741d2078" category="list-text">왼쪽 탐색 창에서 * 리소스 * 를 클릭한 다음 목록에서 SnapCenter Plug-in for SAP HANA Database 를 선택합니다.</block>
   <block id="4be65a5ea46b3e2f23ace622863d9afc" category="list-text">리소스 페이지의 * 보기 * 목록에서 리소스 유형을 선택합니다.</block>
-  <block id="214914d9549015d63d4b86758e66e1aa" category="list-text">(선택 사항) 을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 호스트 이름을 선택합니다.</block>
-  <block id="e6b04dca8731f73a6232df543bed1168" category="paragraph">그런 다음 을 클릭할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 를 눌러 필터 창을 닫습니다.</block>
   <block id="39e3c69c6f9d80e017de1f541e1670ca" category="list-text">데이터베이스를 선택한 다음 * 데이터베이스 구성 * 을 클릭합니다.</block>
   <block id="7549e4590c51e2808eff73abfe0bfd99" category="list-text">데이터베이스 설정 구성 섹션에서 HDB 보안 사용자 저장소 키를 입력합니다.</block>
   <block id="41119aa704f7776e425d802cc1efdd26" category="admonition">플러그인 호스트 이름이 표시되고 HDB SQL OS 사용자가 자동으로 &lt;sid&gt; adm에 채워집니다.</block>
@@ -592,8 +580,6 @@
   <block id="a9d0e12f10920c999cb78960286bd82a" category="paragraph">자동으로 검색된 리소스는 수정하거나 삭제할 수 없습니다.</block>
   <block id="ea6799b398e3200b6531e1aa5a544d0c" category="list-text">왼쪽 탐색 창에서 * 리소스 * 를 클릭한 다음 목록에서 SAP HANA 데이터베이스용 플러그인을 선택합니다.</block>
   <block id="3e025b4a685d145a938552cff1a33612" category="list-text">자원 페이지의 보기 목록에서 자원 유형을 선택합니다.</block>
-  <block id="275739dcbd0826cc4a0ad3c63d35359a" category="list-text">(선택 사항) * 를 클릭합니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 누른 다음 호스트 이름을 선택합니다.</block>
-  <block id="811422b4eb759583a4051504db293f64" category="paragraph">그런 다음 * 를 클릭할 수 있습니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 눌러 필터 창을 닫습니다.</block>
   <block id="0f034106893faef4643a4f2e45058c52" category="list-text">리소스 새로 고침 * 을 클릭하여 호스트에서 사용 가능한 리소스를 검색합니다.</block>
   <block id="eb037ec78f327455a8e36a07871d70c6" category="paragraph">리소스는 리소스 유형, 호스트 이름, 관련 리소스 그룹, 백업 유형, 정책 및 전체 상태와 같은 정보와 함께 표시됩니다.</block>
   <block id="d960a78735f8828146abd7c7f897adb9" category="list-text">데이터베이스가 NetApp 스토리지에 있고 보호되지 않는 경우 Overall Status 열에 Not protected가 표시됩니다.</block>
@@ -612,7 +598,6 @@
   <block id="660aad66a7be47efbd614fddb4ff93b8" category="list-text">remove-smprotectresource cmdlet을 사용하여 복제된 리소스의 보호를 제거합니다.</block>
   <block id="2a251da54f18e5dbcf2e7040051b6002" category="list-text">자원 페이지에서 상위 자원을 선택합니다.</block>
   <block id="9fbd721fcf9b4830fd6828081be6f142" category="list-text">Manage Copies 보기의 운영 또는 2차(미러링 또는 복제) 스토리지 시스템에서 클론을 선택합니다.</block>
-  <block id="90021265060d6610a36239d59c25b4e1" category="list-text">클론을 선택한 다음 을 클릭합니다 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block> 를 클릭하여 클론을 삭제하거나 을 클릭합니다 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block> 를 눌러 클론을 분할합니다.</block>
   <block id="65c7bdc0c946f828cd443cfb3a30afb1" category="summary">설치-SmHostPackage PowerShell cmdlet을 사용하여 Linux 또는 Windows용 SnapCenter 플러그인 패키지를 여러 호스트에 동시에 설치할 수 있습니다.</block>
   <block id="85e03b5aac12ea0d7a83ca6e7fa64654" category="doc">cmdlet을 사용하여 여러 원격 호스트에 Linux 또는 Windows용 SnapCenter 플러그인 패키지를 설치합니다</block>
   <block id="96f483d89b964507a30894203906a711" category="paragraph">플러그인 패키지를 설치할 각 호스트에 대한 로컬 관리자 권한이 있는 도메인 사용자로 SnapCenter에 로그인해야 합니다.</block>
@@ -634,7 +619,6 @@
   <block id="c09e638cb8ee35698e3172550b12d8fa" category="list-text">왼쪽 탐색 창에서 * 설정 * 을 클릭합니다.</block>
   <block id="2c15d2ecea29fd187ddafb032b93d4a6" category="list-text">설정 페이지에서 * 자격 증명 * 을 클릭합니다.</block>
   <block id="a5bb4561024cbac1f26c361cff68730e" category="list-text">새로 만들기 * 를 클릭합니다.</block>
-  <block id="ffa66d0b6548351c980beb43900626f7" category="image-alt">runas 계정을 설치합니다</block>
   <block id="360027b0fe13d40229e30b3f3bf19043" category="list-text">자격 증명 페이지에서 자격 증명 구성에 필요한 정보를 지정합니다.</block>
   <block id="21f831502a413a739e20cbf9f2eefe54" category="cell">이 필드의 내용...</block>
   <block id="5e2ad6fd9deb412d871137094ee43ef0" category="cell">수행할 작업...</block>
@@ -718,13 +702,11 @@
   <block id="dbc89dfae1c6c8ad4eb43878b9171ca6" category="inline-link-macro">리소스 그룹을 백업합니다</block>
   <block id="ae75553103cbeaaaa3b0e4002805ae6f" category="paragraph"><block ref="ae75553103cbeaaaa3b0e4002805ae6f" category="inline-link-macro-rx"></block></block>
   <block id="961e6abd0c7a72786d3641390a4dea5f" category="list-text">하나 이상의 테넌트 데이터베이스가 다운될 때 파일 기반 백업을 생성하려면 을 사용하여 HANA 속성 파일에서 allow_file_based_backup_IFINACTIVE_Tenants_present 매개 변수를 * Yes * 로 설정합니다<block ref="c49971dbd0f66cf4e6b62fc441967947" prefix=" " category="inline-code"></block> cmdlet.</block>
-  <block id="c6bac95430dac4e5070788ce23acefc4" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 get-Help_command_name_을 실행하여 얻을 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block></block>
   <block id="d5d9a4c4e51c27e556fb89bfdd11f0b0" category="list-text">일시 중지, 스냅샷 복사 및 정지 해제 작업에 대한 사전 및 사후 명령의 경우 플러그인 호스트에서 사용할 수 있는 명령 목록에 다음 경로의 명령이 있는지 확인해야 합니다.</block>
   <block id="19650f12fd9f269a497d4edc60754137" category="paragraph">Windows의 경우:_C:\Program Files\NetApp\SnapCenter\Snapcenter Plug-in Creator\etc\allowed_commands_list.txt_</block>
   <block id="e7b4efc5dd5b16a36c26e91652b78194" category="paragraph">Linux의 경우: _/var/opt/snapcenter/SCC/allowed_commands_list.txt_</block>
   <block id="2dd7c4421097b3d796ff9bf355ebaa6e" category="admonition">명령이 명령 목록에 없으면 작업이 실패합니다.</block>
   <block id="a2286f0c6fbfecb0501c43aa965242b6" category="list-text">리소스 페이지의 * 보기 * 드롭다운 목록에서 리소스 유형에 따라 리소스를 필터링합니다.</block>
-  <block id="127c10f681ffba1b9fa91c9bf92bcbc8" category="paragraph">를 클릭합니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 선택한 다음 호스트 이름과 리소스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 를 눌러 필터 창을 닫습니다.</block>
   <block id="085ab917326888bb9fd0378b5efb84b9" category="list-text">백업할 리소스를 클릭합니다.</block>
   <block id="0ab7e5f8a6ae4c1833f0606e717b782e" category="list-text">리소스 페이지에서 * 스냅샷 복사본에 대해 사용자 지정 이름 형식 사용 * 을 선택한 다음 스냅샷 복사본 이름에 사용할 사용자 지정 이름 형식을 입력합니다.</block>
   <block id="8deb8aa93ea3b02fc36610daf36edad9" category="paragraph">예: _customtext_policy_hostname_or_resource_hostname_. 기본적으로 스냅샷 복사본 이름에 타임스탬프가 추가됩니다.</block>
@@ -747,12 +729,9 @@
   <block id="1accc18e0f25decba79f224ccd167283" category="paragraph">파일 시스템 정합성 보장 * 이 있는 SnapCenter를 선택합니다.</block>
   <block id="b0be4061cee618df981a407920b78462" category="paragraph">명령을 입력하여 스냅샷 복사본을 생성합니다</block>
   <block id="530fb3b2ba42bf6ae30b22ac27b110a9" category="paragraph">기타 * 를 선택한 다음 명령을 입력하여 스냅샷 복사본을 생성합니다.</block>
-  <block id="129db5e4908943c18847d24dd577782f" category="paragraph"><block ref="129db5e4908943c18847d24dd577782f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="53899dcc4360d3b8622ce5dc08a12950" category="list-text">정책 페이지에서 다음 단계를 수행합니다.</block>
   <block id="70c30c71587e2d0c71b7f9e97a8aad7d" category="list-text">드롭다운 목록에서 하나 이상의 정책을 선택합니다.</block>
-  <block id="e27c3f444b9f74c83a643ba11ed3a83e" category="admonition">* 를 클릭하여 정책을 생성할 수도 있습니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>*.</block>
   <block id="db9cc4a2ed12e21bb79e9346714c68b9" category="paragraph">선택한 정책에 대한 스케줄 구성 섹션에 선택한 정책이 나열됩니다.</block>
-  <block id="d9efe8cd3b84ef411469a4acc1e9bb8a" category="list-text">를 클릭합니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>일정을 구성하려는 정책에 대한 스케줄 구성 열의</block>
   <block id="a4412452c9cff96f8d11e97e688ba35e" category="list-text">policy_policy_name_에 대한 일정 추가 대화 상자에서 일정을 구성한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="90334c9b6a705f8c6dafb182257f149b" category="paragraph">_policy_name_은 선택한 정책의 이름입니다.</block>
   <block id="bf5bc6c2ed0f05ce21c3e597309a4f6b" category="paragraph">구성된 일정이 Applied Schedules 열에 나열됩니다.</block>
@@ -799,8 +778,6 @@
   <block id="15fda0d23b806181f091668c1c1e55bf" category="paragraph">리소스(데이터베이스) 또는 리소스 그룹의 백업을 생성할 수 있습니다. 백업 워크플로우에는 계획, 백업용 데이터베이스 식별, 백업 정책 관리, 리소스 그룹 생성 및 정책 연결, 백업 생성 및 작업 모니터링이 포함됩니다.</block>
   <block id="b9721a35a6c374ded595576ccbd2f789" category="paragraph">다음 워크플로에서는 백업 작업을 수행해야 하는 순서를 보여 줍니다.</block>
   <block id="6a9192ab011aeeddc22793310691a1e4" category="image-alt">SAP_HANA 백업 워크플로우</block>
-  <block id="0001160fa843faa4e5294c286bd2a184" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. SnapCenter cmdlet 도움말 및 cmdlet 참조 정보에 PowerShell cmdlet에 대한 자세한 정보가 포함되어 있습니다.
-<block ref="0a3e2ef7f51b42a7ddee804547031be0" category="inline-link-rx"></block>.</block>
   <block id="391b68bcb3d6f9d643ee0cb78ff1dfde" category="summary">PowerShell cmdlet을 사용하여 SAP HANA 데이터베이스를 백업, 복원 또는 클론 복제하기 전에 SVM(Storage Virtual Machine) 연결과 자격 증명을 생성해야 합니다.</block>
   <block id="cc33ddff1a25485bc2416a9b57a9f8c5" category="doc">SAP HANA 데이터베이스용 PowerShell cmdlet을 사용하여 스토리지 시스템 연결과 자격 증명을 생성합니다</block>
   <block id="70991649072f70fdb060c64c2144c8c8" category="paragraph">SnapCenter는 서로 다른 클러스터에서 동일한 이름의 여러 스토리지 시스템을 지원하지 않습니다. SnapCenter에서 지원하는 각 스토리지 시스템은 고유한 이름과 고유한 데이터 LIF IP 주소를 가져야 합니다.</block>
@@ -833,7 +810,6 @@
   <block id="691f9dff16ebd5da65b5dbbe0c978b53" category="list-text">XFS 파일 시스템에서 Linux LVM 지원</block>
   <block id="d03608911fb0f378ca59b86a32adfb17" category="summary">SAP HANA 데이터베이스를 보호하려면 SAP HANA 데이터베이스용 SnapCenter 플러그인을 설치하고 설정해야 합니다.</block>
   <block id="1360b9c3f96e4bcb224d198ae827046e" category="doc">SAP HANA 데이터베이스용 SnapCenter 플러그인 설치 워크플로우</block>
-  <block id="8eb6eae2f08f541d02277c6746c4fa05" category="image-alt">SAP HANA 설치 구성 워크플로우</block>
   <block id="5e398ea531b7d56ad433ce2103049eab" category="summary">필요한 백업 작업 수를 결정하는 요인에는 리소스 크기, 사용된 볼륨 수, 리소스 변경 속도 및 SLA(서비스 수준 계약)\ 등이 있습니다.</block>
   <block id="89db1be308293dea721d491e7947cbe2" category="doc">SAP HANA 데이터베이스에 필요한 백업 작업 수입니다</block>
   <block id="8b3a2edf035fc93730de54663ee89cc2" category="paragraph">필요한 백업 작업 수를 결정하는 요인에는 리소스 크기, 사용된 볼륨 수, 리소스 변경 속도 및 SLA(서비스 수준 계약)가 포함됩니다.</block>
@@ -940,7 +916,6 @@ log_backup_0_0_0_0.161518551942
   <block id="086beaa9afd2391b7d5204a8db47791c" category="paragraph">호스트에서 실행할 명령을 입력하여 스냅샷 복사본을 생성합니다.</block>
   <block id="f3534eb85a79e67d42411ae7be3de94f" category="paragraph">기타 * 를 선택한 다음 호스트에서 실행할 명령을 입력하여 스냅샷 복사본을 생성합니다.</block>
   <block id="39fba97fa35b3e2df0e6339cd21abe23" category="paragraph">선택한 정책에 대한 스케줄 구성 섹션에 정책이 나열됩니다.</block>
-  <block id="eb40bd4c68324257632328b6d08fa139" category="list-text">Configure Schedules 열에서 * 를 클릭합니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>구성할 정책에 대해 * 를 선택합니다.</block>
   <block id="2a7c4561536268cef70578e0e4124a6c" category="paragraph">여기서 policy_name은 선택한 정책의 이름입니다.</block>
   <block id="7c221f1777123603eacf6f596630737a" category="paragraph">구성된 스케줄은 * Applied Schedules * 열에 나열됩니다.</block>
   <block id="eecd36c568b40385bb729410ba711a64" category="paragraph">타사 백업 스케줄은 SnapCenter 백업 스케줄과 겹치는 경우 지원되지 않습니다.</block>
@@ -1081,7 +1056,6 @@ log_backup_0_0_0_0.161518551942
   <block id="92ae04a417b2b1bf95cb914953f21cce" category="list-text">정책이 연결된 리소스 그룹을 만들어야 합니다.</block>
   <block id="bf48a7e0eb56785cdc1ed4c661d3583f" category="paragraph">리소스 페이지에서 필요 시 리소스 그룹을 백업할 수 있습니다. 리소스 그룹에 정책이 연결되어 있고 스케줄이 구성되어 있는 경우 스케줄에 따라 백업이 자동으로 수행됩니다.</block>
   <block id="5188766c2c9e07184bb642e31a6d1193" category="list-text">리소스 페이지의 * 보기 * 목록에서 * 리소스 그룹 * 을 선택합니다.</block>
-  <block id="21364d4ce43113190e1c8a9ca29e8c66" category="paragraph">검색 상자에 리소스 그룹 이름을 입력하거나 을 클릭하여 리소스 그룹을 검색할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>을 클릭한 다음 태그를 선택합니다. 그런 다음 을 클릭할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 를 눌러 필터 창을 닫습니다.</block>
   <block id="6c22568aa6116c11fda42febcf7b796a" category="list-text">리소스 그룹 페이지에서 백업할 리소스 그룹을 선택한 다음 * 지금 백업 * 을 클릭합니다.</block>
   <block id="38daee81aaf3af99133cf03d753b6a86" category="list-text">여러 정책을 리소스 그룹에 연결한 경우 * Policy * 드롭다운 목록에서 백업에 사용할 정책을 선택합니다.</block>
   <block id="e53ba889508b719f73b0223755d7a145" category="summary">SnapCenter를 사용하여 백업을 복제할 수 있습니다. 기본 또는 보조 백업에서 클론을 생성할 수 있습니다.</block>
@@ -1141,7 +1115,6 @@ log_backup_0_0_0_0.161518551942
   <block id="dd5f630f41cdfc02249f05e881feeef5" category="summary">복원 및 복구 워크플로에는 계획, 복원 작업 수행 및 작업 모니터링이 포함됩니다.</block>
   <block id="e30c3d908a4ed515e16791b672cc0709" category="doc">워크플로를 복원합니다</block>
   <block id="f221802dd348fa7fec376c674a7bceda" category="paragraph">다음 워크플로에서는 복원 작업을 수행해야 하는 순서를 보여 줍니다.</block>
-  <block id="5efaab231bdeaf77ed795fa0e9d5b3e4" category="paragraph"><block ref="0a3e2ef7f51b42a7ddee804547031be0" category="inline-link-rx"></block>.</block>
   <block id="ffaafcbad8fa7abfb6f9166b4bc76388" category="doc">SAP HANA의 백업 작업을 취소합니다</block>
   <block id="68e32079f812553771749d1bb9d274ff" category="summary">리소스를 백업 또는 복제할 때 운영 스토리지와 보조 스토리지의 모든 백업 및 클론을 그래픽으로 표시하는 것이 유용할 수 있습니다.</block>
   <block id="922c1e484efed735234f02ac16b9c465" category="paragraph">복제본 관리 보기에서 다음 아이콘을 검토하여 운영 스토리지 또는 보조 스토리지(미러 복사본 또는 볼트 복제본)에서 백업과 클론을 사용할 수 있는지 확인할 수 있습니다.</block>
@@ -1165,8 +1138,6 @@ log_backup_0_0_0_0.161518551942
   <block id="e1a7771495dc1fe7824ecbb848144f84" category="paragraph">백업 및 클론의 세부 정보가 표 형식으로 표시됩니다.</block>
   <block id="8decbf1aae0caf98d11e0d7812d18fa5" category="list-text">테이블에서 백업을 선택한 다음 데이터 보호 아이콘을 클릭하여 복원, 클론 복제 및 삭제 작업을 수행합니다.</block>
   <block id="54473c2cfe1570548e51b95d5d44628f" category="admonition">보조 스토리지에 있는 백업의 이름을 바꾸거나 백업을 삭제할 수 없습니다.</block>
-  <block id="80720ca63de6ce126b5aefa74149e369" category="list-text">클론을 삭제하려면 표에서 클론을 선택한 다음 을 클릭합니다 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>.</block>
-  <block id="f5236905507f722bdfe8fab4cdd4de2b" category="list-text">클론을 분할하려면 테이블에서 클론을 선택한 다음 을 클릭합니다 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="349cd6d8e61213a447b8c5adb6059071" category="summary">귀사 환경에 SAP HANA 데이터베이스용 플러그인을 설치하면 SnapCenter를 사용하여 SAP HANA 데이터베이스와 관련 리소스를 백업, 복원 및 클론 복제할 수 있습니다. 이러한 작업을 지원하는 작업을 수행할 수도 있습니다.</block>
   <block id="d7e57286a93aa6e133dea4119815f1e5" category="doc">SAP HANA 데이터베이스용 SnapCenter 플러그인을 사용하여 수행할 수 있는 작업</block>
   <block id="753bcb78018d8547668b0dda3334e5a2" category="list-text">데이터베이스를 추가합니다.</block>
@@ -1221,7 +1192,6 @@ log_backup_0_0_0_0.161518551942
   <block id="cee248575d109b963f54afafda4720a1" category="paragraph">HDBSQL OS 사용자</block>
   <block id="596bf9414108fb79d00ec3039e739625" category="paragraph">HDB 보안 사용자 저장소 키가 구성된 사용자 이름을 입력합니다.     Windows의 경우 HDBSQL OS 사용자가 시스템 사용자여야 합니다. 따라서 시스템 사용자에 대해 HDB 보안 사용자 저장소 키를 구성해야 합니다.</block>
   <block id="44dab87fe2da08cd26ee4f07dbdf1d56" category="list-text">스토리지 설치 공간 제공 페이지에서 스토리지 시스템을 선택하고 하나 이상의 볼륨, LUN 및 qtree를 선택한 다음 * 저장 * 을 클릭합니다.</block>
-  <block id="266587454e01a92f0bfd85f3e920b6e9" category="paragraph">선택 사항: * 를 클릭할 수 있습니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>다른 스토리지 시스템에서 볼륨, LUN 및 qtree를 더 추가하는 아이콘</block>
   <block id="88b9a84562729de4f24eef1b144f1867" category="paragraph">데이터베이스는 SID, 플러그인 호스트, 관련 리소스 그룹 및 정책, 전체 상태와 같은 정보와 함께 표시됩니다</block>
   <block id="3f1fe53287c04e073da002e39b799896" category="paragraph">사용자에게 리소스에 대한 액세스 권한을 제공하려면 사용자에게 리소스를 할당해야 합니다. 따라서 사용자는 자신에게 할당된 자산에 대한 사용 권한이 있는 작업을 수행할 수 있습니다.</block>
   <block id="7c5e9452cf45e8b93c00a930bef68613" category="inline-link-macro">사용자 또는 그룹을 추가하고 역할 및 자산을 할당합니다</block>
@@ -1277,7 +1247,6 @@ log_backup_0_0_0_0.161518551942
   <block id="294b56a283e4d5bb64865a3cf0a721fa" category="list-text">DINSTALL_LOG_NAME은 로그 파일의 이름을 지정합니다.</block>
   <block id="b3f72639442ac8dbec9806a234d5e8db" category="list-text">/&lt;설치 디렉토리&gt;/NetApp/snapcenter/SCC/etc/SC_SMS_Services.properties 파일을 편집한 다음 plugins_enabled=HANA:3.0 매개 변수를 추가합니다.</block>
   <block id="550b8e3545b2126ab5138fd027e787fa" category="list-text">Add-Smhost cmdlet 및 필수 매개 변수를 사용하여 SnapCenter 서버에 호스트를 추가합니다.</block>
-  <block id="9e9b8895f32adb6f730895bc11f2874a" category="paragraph">명령에 사용할 수 있는 매개 변수와 해당 설명에 대한 정보는 _get-Help command_name_을 실행하여 얻을 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="15672c6e3417ee4aa0cd7381b560f34d" category="summary">SnapCenter를 사용하여 리소스를 복원할 수 있습니다. 복구 작업의 기능은 사용하는 플러그인에 따라 다릅니다.</block>
   <block id="d697fbdd5eef7a80e3797fe363484b61" category="doc">리소스 백업을 복원합니다</block>
   <block id="6f07fad9174a2429e52c321216b14548" category="list-text">스냅샷 복사본을 미러 또는 볼트로 복제할 경우 SnapCenter 관리자가 소스 볼륨과 타겟 볼륨 모두에 대해 SVM(스토리지 가상 머신)을 할당해야 합니다.</block>
@@ -1305,7 +1274,6 @@ log_backup_0_0_0_0.161518551942
   <block id="53582adf49551bf81650e7c9447e3a03" category="paragraph">또한 보낸 사람 및 받는 사람 전자 메일 주소와 전자 메일의 제목도 지정해야 합니다. SMTP는 * 설정 * &gt; * 글로벌 설정 * 페이지에서도 구성해야 합니다.</block>
   <block id="edc25de414c7fe73d241458dab7bca2b" category="summary">개별 사용자 지정 플러그인 리소스가 리소스 그룹에 포함되어 있지 않은 경우 리소스 페이지에서 리소스를 백업할 수 있습니다. 필요에 따라 리소스를 백업하거나 리소스에 정책이 연결되어 있고 스케줄이 구성된 경우 스케줄에 따라 백업이 자동으로 수행됩니다.</block>
   <block id="8ffa4ba0dd2df5995fd397c72a149679" category="doc">개별 맞춤형 플러그인 리소스를 백업합니다</block>
-  <block id="d9519d94a3a4c5d7cfd38a6562e76409" category="paragraph">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>호스트 이름과 리소스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 를 눌러 필터 창을 닫습니다.</block>
   <block id="80cb8ef1d01a491a4a563ec56f39cedc" category="list-text">리소스 페이지에서 사용자 지정 이름을 사용하려면 * 스냅샷 복사본에 사용자 지정 이름 형식 사용 * 확인란을 선택한 다음 스냅샷 복사본 이름의 사용자 지정 이름 형식을 입력합니다.</block>
   <block id="16bfcf20ed729d5958d62a1310952406" category="paragraph">긴급, 중간 또는 완해제 를 선택하여 스냅샷 복사 작업이 완료될 때까지 기다리는 시간을 지정합니다.</block>
   <block id="6ab61c7e4778c57cf88bc1b95a583d05" category="list-text">Quiesce, Snapshot copy 및 unquiesce 작업에 대한 사전 및 사후 명령을 실행하려면 * Scripts * 화살표를 클릭합니다. 백업 작업을 종료하기 전에 사전 명령을 실행할 수도 있습니다.</block>
@@ -1313,8 +1281,6 @@ log_backup_0_0_0_0.161518551942
   <block id="b6b1826c899350995a39684ee19f8c7d" category="list-text">사용자 정의 구성* 화살표를 클릭한 다음 이 자원을 사용하는 모든 작업에 필요한 사용자 정의 값 쌍을 입력합니다.</block>
   <block id="f02ae06c15b2bac3b80b81485cd916ce" category="paragraph">SnapCenter를 사용하여 스토리지 레벨의 스냅샷 복사본을 생성할 수 있습니다</block>
   <block id="e668102d5b8a83e66e31f5c42dcbb239" category="paragraph">SnapCenter은 Windows용 플러그인을 사용하여 파일 시스템을 일관된 상태로 전환한 다음 스냅샷 복사본을 만듭니다</block>
-  <block id="be00178f4e91d4901871234d117ca9d0" category="admonition">을 클릭하여 정책을 생성할 수도 있습니다 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>.</block>
-  <block id="99b0a37a3e506683141bfd2275a4beb2" category="list-text">을 클릭합니다 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> 스케줄을 구성할 정책에 대한 Configure Schedules 열에서</block>
   <block id="d89a925c7347eda26320229d83214fd3" category="paragraph">여기서, _policy_name_은 선택한 정책의 이름입니다.</block>
   <block id="6b4dbd62846fc1dc78b9f63f11af9c78" category="list-text">리소스에 여러 정책을 적용한 경우 * 정책 * 드롭다운 목록에서 백업에 사용할 정책을 선택합니다.</block>
   <block id="75358aefb0b5382303d826391e171b80" category="summary">네이티브 스타일을 사용하여 플러그인을 개발합니다.</block>
@@ -1369,8 +1335,6 @@ Snapshot 복사본을 생성할 수 있는 상태로 애플리케이션 저장 �
   <block id="dd4b762c191c7a235ce898c094749679" category="paragraph">호스트 추가 페이지에서 사용자 지정 플러그인 및 스토리지 플러그인을 설치할 수 있습니다.</block>
   <block id="a344a2fc65197b27dcccc38ac1ef85a3" category="inline-link-macro">호스트를 추가하고 원격 호스트에 플러그인 패키지를 설치합니다.</block>
   <block id="a5f00a79eb947021702cee9fc1d05354" category="paragraph"><block ref="a5f00a79eb947021702cee9fc1d05354" category="inline-link-macro-rx"></block></block>
-  <block id="b6ddf325474f53377de3e17f65c983f3" category="inline-link">NetApp 스토리지 자동화 스토어</block>
-  <block id="56cb38ae9f515c555dfc8601fd4c0070" category="paragraph">NetApp은 또한 MySQL, MAXDB, DB2, Sybase, DPGLUE, MongoDB, ORASCPM 및 PostgreSQL 맞춤형 플러그인 이러한 플러그인은 에서 다운로드할 수 있습니다<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="022c56789408e44b04cf1944babfa527" category="admonition">SnapCenter 지원 정책은 SnapCenter 맞춤형 플러그인 프레임워크, 핵심 엔진 및 관련 API에 대한 지원을 포함합니다. 지원 서비스는 플러그인 소스 코드와 사용자 지정 플러그인 프레임워크에 구축된 관련 스크립트를 지원하지 않습니다.</block>
   <block id="07af457ed5409f58b0d5ca2b41b5ec39" category="inline-link-macro">응용 프로그램용 플러그인을 개발합니다</block>
   <block id="4a7e6c3a47ec940f7e3059981cd146da" category="paragraph">을 참조하여 사용자 지정 플러그인을 만들 수 있습니다 <block ref="9ef4188c6ecd9ed20479c22e2842115e" category="inline-link-macro-rx"></block>.</block>
@@ -1418,7 +1382,6 @@ Snapshot 복사본을 생성할 수 있는 상태로 애플리케이션 저장 �
   <block id="86de8a90b3fba9ddc4880b8903987555" category="list-text">이(가) 있어야 합니다 <block ref="4ad0bd1144546248adc0fb1c490ceec4" category="inline-link-macro-rx"></block>.</block>
   <block id="797f1e031962d70e46335925184febf4" category="list-text">SnapCenter 서버에 플러그인을 업로드해야 합니다.</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업에 대해</block>
-  <block id="eb609425665410a2e3cc5d5000880798" category="paragraph">MySQL 및 DB2 애플리케이션에 대한 리소스를 추가할 수도 있습니다. 이러한 플러그인은 에서 다운로드할 수 있습니다<block ref="14adb94a4faec9ea0e0992d90e98b640" category="inline-link-rx"></block>.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="0b5045b3b137ebb25cf08b5081075426" category="list-text">왼쪽 탐색 창에서 * 리소스 * 를 선택한 다음 목록에서 적절한 플러그인을 선택합니다.</block>
   <block id="b828f6db4e08909e879dfbf229208eff" category="list-text">리소스 페이지에서 * 리소스 추가 * 를 선택합니다.</block>
@@ -1564,8 +1527,6 @@ SnapCenter 서버 및 특정 호스트에 배포할 버전을 선택할 수 있�
   <block id="c1d36bef52fc074303f12c52de7b144f" category="list-text">업로드 * 를 클릭합니다.</block>
   <block id="14c63a85dc0d2eb17d6a4de481e630f9" category="paragraph">압축된 사용자 지정 플러그인 폴더의 descriptor.xml 파일은 패키지를 업로드하기 전에 유효성을 검사합니다.</block>
   <block id="22b9c22ece0544103d4ef5fde3f3591c" category="paragraph">SnapCenter 서버에 업로드되는 사용자 지정 플러그인이 나열됩니다.</block>
-  <block id="00ebf5cec061915cd0462d73602dcad8" category="inline-link">NetApp 자동화 스토어</block>
-  <block id="fa5ad2e8d730251bd90eea875f95091c" category="paragraph">MySQL 또는 DB2 애플리케이션을 관리하려는 경우 NetApp에서 제공하는 MySQL 및 DB2 사용자 지정 플러그인을 사용할 수 있습니다. MySQL 및 DB2 맞춤형 플러그인은 에서 사용할 수 있습니다<block ref="480a3096e7d732b8f84f20e353e713fd" category="inline-link-rx"></block></block>
   <block id="ab443ca6692007d7b4d66d4e3044cbd8" category="paragraph">Skip Prech사전 검사 * 확인란을 선택하지 않은 경우 호스트가 플러그인 설치 요구 사항을 충족하는지 여부를 확인합니다. 디스크 공간, RAM, PowerShell 버전, .NET 버전, 위치(Windows 플러그인의 경우) 및 Java 버전(Linux 플러그인의 경우)은 최소 요구 사항에 따라 검증됩니다. 최소 요구 사항이 충족되지 않으면 적절한 오류 또는 경고 메시지가 표시됩니다.</block>
   <block id="6edd2daf14dde352ee9ebb9ecbfb2fc4" category="summary">PERL을 사용하여 플러그인을 개발합니다.</block>
   <block id="3f272cbd9f3d98a46dc5be01d6d1c28f" category="doc">Perl 기반 개발</block>
@@ -1636,7 +1597,6 @@ SnapCenter 서버 및 특정 호스트에 배포할 버전을 선택할 수 있�
   <block id="652adaef4ef8ab71be391a952ace680c" category="list-text">테이블에서 백업을 선택한 다음 데이터 보호 아이콘을 클릭하여 복원, 클론 복제, 이름 바꾸기 및 삭제 작업을 수행합니다.</block>
   <block id="53ad3fdb1526bfd9b033d7e9b88ea6e2" category="admonition">보조 스토리지 시스템에 있는 백업의 이름을 바꾸거나 백업을 삭제할 수 없습니다.</block>
   <block id="043c647bbfcefaa1da5bb7d1e9fe7eb4" category="admonition">운영 스토리지 시스템에 있는 백업의 이름은 변경할 수 없습니다.</block>
-  <block id="be966cb36ed036d9d34f4c527755cbe8" category="list-text">클론을 삭제하려면 표에서 클론을 선택하고 을 클릭합니다 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block> 를 눌러 클론을 삭제합니다.</block>
   <block id="8c1af9a95c5ff9086ee5697a78397ae5" category="summary">SnapCenter 서버를 사용하면 SnapCenter에 대한 플러그인으로 응용 프로그램을 배포 및 관리할 수 있습니다.</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="doc">개요</block>
   <block id="72631a8144cabf57a431e307c720be4b" category="paragraph">SnapCenter 서버를 사용하면 SnapCenter에 대한 플러그인으로 응용 프로그램을 배포 및 관리할 수 있습니다.
@@ -1715,10 +1675,8 @@ MySQLDB_MASTER_SLAVE</block>
 및 은 각 플러그인 개발 스타일에 대해 자세히 설명합니다.</block>
   <block id="caef6d3f9e7cdd9ed1d3eaabe29db549" category="summary">사용자 지정 플러그인 리소스를 보호하려면 SnapCenter 사용자 지정 플러그인을 설치하고 설정해야 합니다.</block>
   <block id="d9ac41630ae6a20177466403e2d328d8" category="doc">SnapCenter 맞춤형 플러그인의 설치 워크플로우</block>
-  <block id="86f7f637d3819a7b4814644b7f8d8972" category="image-alt">SCC 설치 - 워크플로우를 구성합니다</block>
   <block id="0f06c6acfdc3dffd800e63c8779e7702" category="paragraph"><block ref="0f06c6acfdc3dffd800e63c8779e7702" category="inline-link-macro-rx"></block></block>
   <block id="d586cfbb655ff9a83e5820c52931584f" category="doc">사용자 지정 플러그인 리소스를 복원합니다</block>
-  <block id="87dee260ac24c847f6318306d701cdaf" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block>.</block>
   <block id="6ad653f84eed0c76647686ab11205da7" category="doc">리소스, 리소스 그룹 및 정책을 사용하여 맞춤형 플러그인 리소스를 보호하는 방법</block>
   <block id="fa195f3aeab33bc32aac81731432394a" category="list-text">리소스는 일반적으로 SnapCenter를 사용하여 백업 또는 클론 복제하는 데이터베이스, Windows 파일 시스템 또는 VM입니다.</block>
   <block id="5933757c4b9d748208a6193f5fbd4b1d" category="list-text">SnapCenter 리소스 그룹은 호스트 또는 클러스터의 리소스 모음입니다.</block>
@@ -1739,7 +1697,6 @@ MySQLDB_MASTER_SLAVE</block>
   <block id="c48a2f5430d3aff55420b834363bcc46" category="doc">SnapCenter 사용자 지정 플러그인에서 지원하는 스토리지 유형입니다</block>
   <block id="d21fbb2a5ce79a2a4ef0780b73023b2e" category="paragraph">VM 호스트의 물리적 마운트 및 NFS 직접 마운트(VMDK 및 RDM LUN은 지원되지 않음)</block>
   <block id="8c922e6a0134954b667b072d00b58ce3" category="doc">PowerShell cmdlet을 사용하여 백업 클론 생성</block>
-  <block id="7c17a5f75782af4f820b286a07f51777" category="paragraph">PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="e8afddd41cf3a716324442f7a4538460" category="list-text">Get-SmBackup 또는 Get-SmResourceGroup cmdlet을 사용하여 클론을 생성할 수 있는 백업을 나열합니다.</block>
   <block id="b92d70c39b6e5b77f828b04b1f8cf2e7" category="paragraph">다음 예제에서는 지정된 리소스 그룹에 대한 정보를 표시합니다.</block>
   <block id="490bfe5ade57157a35bf58b686acb1cf" category="list-text">New-SmClone cmdlet을 사용하여 클론 리소스 그룹 또는 기존 백업에서 클론 작업을 시작합니다.</block>
@@ -1778,7 +1735,6 @@ MySQLDB_MASTER_SLAVE</block>
   <block id="8417b61ea6ac680285a40b7f679829a2" category="list-text">알림 페이지의 * 이메일 기본 설정 * 드롭다운 목록에서 이메일을 보낼 시나리오를 선택합니다.</block>
   <block id="665e27cacd5b140b3ca5a518bbd41724" category="doc">사용자 지정 플러그인 리소스의 리소스 그룹을 백업합니다</block>
   <block id="0dd1baa389f6493ff89ba4f1d23f127b" category="list-text">보조 스토리지와 SnapMirror 관계가 있는 리소스를 백업하려면 스토리지 사용자에게 할당된 ONTAP 역할에 "'스냅샷 전체' 권한이 있어야 합니다. 그러나 "vsadmin" 역할을 사용하는 경우에는 "napmirror all" 권한이 필요하지 않습니다.</block>
-  <block id="862569d2dbddc7f68305bb1aa73accec" category="paragraph">검색 상자에 리소스 그룹 이름을 입력하거나 을 클릭하여 리소스 그룹을 검색할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 태그를 선택합니다. 그런 다음 을 클릭할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 를 눌러 필터 창을 닫습니다.</block>
   <block id="44119ab6cb16491e354c029de67b6782" category="list-text">여러 정책을 리소스 그룹에 연결한 경우 * Policy * 드롭다운 목록에서 백업에 사용할 정책을 선택합니다.</block>
   <block id="656764dc4fc9063500ad9c4607e32b3b" category="paragraph"><block ref="656764dc4fc9063500ad9c4607e32b3b" category="inline-link-rx"></block></block>
   <block id="f6e291f8da5e2bfb20622fac181e8aca" category="list-text">VMDK에서 애플리케이션 데이터를 백업하고 VMware vSphere용 SnapCenter 플러그인의 Java 힙 크기가 충분히 크지 않으면 백업이 실패할 수 있습니다. Java 힙 크기를 늘리려면 스크립트 파일 /opt/netapp/init_scripts/scvservice를 찾습니다. 이 스크립트에서 은 입니다<block ref="f751567fc5d2c300402db2d50de19910" prefix=" " category="inline-code"></block> Command SnapCenter VMware 플러그인 서비스를 시작합니다. 다음 명령을 업데이트합니다.<block ref="d66632e2d1ccce4227411d877d93c152" prefix=" " category="inline-code"></block>.</block>
@@ -1792,7 +1748,6 @@ MySQLDB_MASTER_SLAVE</block>
   <block id="fab91412eb5d45bdeeca565417bd43bb" category="summary">백업 워크플로우에는 계획, 백업용 리소스 식별, 백업 정책 관리, 리소스 그룹 생성 및 정책 연결, 백업 생성 및 작업 모니터링이 포함됩니다.</block>
   <block id="33e8da2f20646df222fc0acf35201fe4" category="doc">사용자 지정 플러그인 리소스를 백업합니다</block>
   <block id="f395a8aee7b6b7007a1b6a64b54468f1" category="image-alt">백업 워크플로우</block>
-  <block id="b6a1d5caea1f8fdc446d41a31f9cfe3e" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block></block>
   <block id="517a125fd46ee1a60309a280447487c0" category="summary">리소스 백업에는 SnapCenter 서버와의 연결 설정, 리소스 추가, 정책 추가, 백업 리소스 그룹 생성 및 백업이 포함됩니다.</block>
   <block id="d2a5f76428abadccd7b24ea08a0eee1e" category="doc">PowerShell cmdlet을 사용하여 리소스를 백업합니다</block>
   <block id="d278818a36e5f43a96b7082ec24a25e0" category="paragraph">이 예제에서는 리소스를 추가합니다.</block>
@@ -1801,7 +1756,6 @@ MySQLDB_MASTER_SLAVE</block>
   <block id="521a461a889ed9e3e14096d08771f661" category="paragraph">LUN 속성이 표시됩니다</block>
   <block id="845a2fac965d9f41d0e11a08d1c7197e" category="paragraph">LUN 형태</block>
   <block id="e734e6e2e702d38ebab6ed3c050a5e72" category="doc">사용자 지정 플러그인 리소스 백업의 클론을 생성합니다</block>
-  <block id="3c408f97e0a21affc59c011044498f97" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="3c67b94e6822d49d50263c7db382c071" category="summary">Java 스타일을 사용하여 플러그인을 개발합니다.</block>
   <block id="731641b378060335e231f40a61efb08e" category="doc">Java 스타일</block>
   <block id="8a01447d4257ebcaab42390ee2f4240d" category="paragraph">Java 사용자 지정 플러그인은 데이터베이스, 인스턴스 등과 같은 응용 프로그램과 직접 상호 작용합니다.</block>
@@ -2037,13 +1991,7 @@ _C:\Program Files\NetApp\SnapCenter Plug-in Creator\etc\custom_plugin_checksum_l
   <block id="2f66d67da390e5c77db3fc5e681393ab" category="list-text">NFS 환경에 Oracle 데이터베이스가 있는 경우 마운트, 클론, 검증 및 복원 작업을 수행하려면 운영 스토리지 또는 2차 스토리지에 대해 NFS 데이터 LIF를 하나 이상 구성해야 합니다.</block>
   <block id="904e44e9990e7591adda05fc061919d3" category="list-text">SVM에 여러 데이터 경로(LIF)가 있을 경우 SnapCenter은 NFS 클론 복제된 볼륨을 마운트하기 위해 적절한 데이터 경로(LIF)를 선택합니다. 그러나 특정 데이터 경로(LIF)를 지정하려면 Set-SvmPreferredDataPath CLI를 실행해야 합니다.
 자세한 내용은 명령 참조 가이드를 참조하십시오.</block>
-  <block id="0d38af714784f793aaf023f367e4c39b" category="list-text">SAN 환경에 Oracle 데이터베이스가 있는 경우 다음 가이드에 설명된 권장 사항에 따라 SAN 환경을 구성해야 합니다.</block>
-  <block id="26b193fe4fa8dbe180bbe20800729e6b" category="inline-link">Linux Unified Host Utilities의 권장 호스트 설정</block>
-  <block id="e705af1c7f38eac38e2f493fc039f70e" category="list-text"><block ref="e705af1c7f38eac38e2f493fc039f70e" category="inline-link-rx"></block></block>
-  <block id="e41304e7d689f8fed5c98620228184cf" category="inline-link">ONTAP 스토리지에 Linux 호스트 사용</block>
-  <block id="4261289fb5bad467a2ad973679d86c14" category="list-text"><block ref="4261289fb5bad467a2ad973679d86c14" category="inline-link-rx"></block></block>
   <block id="b1ada800560d7bd73c2da9a36d6ae229" category="inline-link">AIX 호스트 유틸리티의 영향을 받는 호스트 설정</block>
-  <block id="9e202af09678a2aeb1c20235b8ed2aad" category="list-text"><block ref="9e202af09678a2aeb1c20235b8ed2aad" category="inline-link-rx"></block></block>
   <block id="ba09c94fed381b580a726fc94531b160" category="list-text">Oracle Linux 또는 RHEL 운영 체제의 LVM에 Oracle 데이터베이스가 있는 경우 최신 버전의 LVM(Logical Volume Management)을 설치합니다.</block>
   <block id="8770246977269a639c8c2818412dc3ac" category="list-text">Oracle용 SnapManager를 사용하고 있고 Oracle 데이터베이스용 SnapCenter 플러그인으로 마이그레이션하려는 경우 sccli 명령 sc-migrate 를 사용하여 프로필을 SnapCenter의 정책 및 리소스 그룹으로 마이그레이션할 수 있습니다.</block>
   <block id="4c893189fecc8b6e5c41ae931ffd7f89" category="list-text">백업 복제를 원하는 경우 ONTAP에서 SnapMirror 및 SnapVault를 구성합니다</block>
@@ -2058,7 +2006,6 @@ _C:\Program Files\NetApp\SnapCenter Plug-in Creator\etc\custom_plugin_checksum_l
   <block id="92c488cfa68af6221db7fffbf4243861" category="image-alt">all_plug-ins_restore_workflow를 참조하십시오</block>
   <block id="1ef6e64eb14d3b262db62b7d313ebbbe" category="summary">Oracle 데이터베이스를 보호하려면 Oracle 데이터베이스용 SnapCenter 플러그인을 설치하고 설정해야 합니다.</block>
   <block id="1cd8b2345e3fc8629233e588fdab2761" category="doc">Oracle 데이터베이스용 SnapCenter 플러그인 설치 워크플로우</block>
-  <block id="a19d33029ae6794cb5370530a85b7fe4" category="image-alt">SCO 설치 워크플로우 구성</block>
   <block id="0aaa1195903b8c3291fdc5c0850cc98a" category="summary">데이터베이스를 복제하기 전에 전략을 정의하면 클론 생성 작업이 성공적으로 수행됩니다.</block>
   <block id="f41173dd94f009e5a3617883b76d2aeb" category="doc">Oracle 데이터베이스에 대한 클론 전략 정의</block>
   <block id="0b43fa1aa16b779f05178364e5c62664" category="section-title">클론 생성에 지원되는 백업 유형입니다</block>
@@ -2094,7 +2041,6 @@ _C:\Program Files\NetApp\SnapCenter Plug-in Creator\etc\custom_plugin_checksum_l
   <block id="768f623632c4bc282d735245d72f0082" category="paragraph">리소스 그룹에 여러 애플리케이션 볼륨이 있는 경우 모든 애플리케이션 볼륨에 SnapMirror 또는 SnapVault 복제 정책이 있어야 합니다.</block>
   <block id="aa937e10b9927770901c4ad133aa81f7" category="paragraph">기본적으로 일관성 그룹(CG) 백업이 생성됩니다. 볼륨 기반 백업을 생성하려면 _web.config_file에서 * EnableOracleNdvVolumeBasedBackup * 의 값을 true 로 설정해야 합니다.</block>
   <block id="19d66c8e9b37ee539bf11e5dc7a3d626" category="list-text">왼쪽 탐색 창에서 * Resources * 를 클릭한 다음 목록에서 Oracle Database 플러그인을 선택합니다.</block>
-  <block id="e169c75993af25a436c2276ecc3bbdda" category="paragraph">검색 상자에 리소스 그룹 이름을 입력하거나 * 를 클릭하여 리소스 그룹을 검색할 수 있습니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 누른 다음 태그를 선택합니다. 그런 다음 * 를 클릭할 수 있습니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 눌러 필터 창을 닫습니다.</block>
   <block id="0bc92cf5f202f2c741414bccdc40afa9" category="admonition">검증 작업은 애플리케이션 볼륨이 아닌 데이터베이스에 대해서만 수행됩니다.</block>
   <block id="0d7e311afcb478a86e539bf4d153c131" category="summary">백업의 파일에 액세스하려는 경우 하나 또는 여러 개의 데이터와 로그 전용 백업을 마운트할 수 있습니다. 백업을 생성된 동일한 호스트에 마운트하거나 Oracle 및 호스트 구성이 동일한 원격 호스트에 마운트할 수 있습니다. 백업을 수동으로 마운트한 경우 작업을 완료한 후 백업을 수동으로 마운트 해제해야 합니다. 데이터베이스 백업은 특정 데이터베이스의 호스트에 한 번만 마운트할 수 있습니다. 작업을 수행하는 동안 단일 백업만 마운트할 수 있습니다.</block>
   <block id="153a24bf2520bcf6ddf0f871f9d46cce" category="doc">데이터베이스 백업을 마운트 및 마운트 해제합니다</block>
@@ -2147,7 +2093,6 @@ _C:\Program Files\NetApp\SnapCenter Plug-in Creator\etc\custom_plugin_checksum_l
   <block id="7175c7653c984fca11c9b01879ca8386" category="paragraph">보호하려는_대상_과 이를 보호할 시기를 요일과 시간으로 정의하는 자원 그룹을 생각해 보십시오. 정책을 정의하는 _ 방법 _ 을(를) 보호하려는 것으로 생각해 보십시오.</block>
   <block id="a1252ded99561e113314773288824c6e" category="paragraph">예를 들어, 호스트의 모든 데이터베이스를 백업하는 경우 호스트에 있는 모든 데이터베이스를 포함하는 리소스 그룹을 생성할 수 있습니다. 그런 다음 리소스 그룹에 일별 정책과 시간별 정책이라는 두 가지 정책을 연결할 수 있습니다. 리소스 그룹을 생성하고 정책을 연결할 때 매일 전체 백업을 수행하고 로그 백업을 매시간 수행하는 다른 일정을 수행하도록 리소스 그룹을 구성할 수 있습니다.</block>
   <block id="9c124c0fc8c6cc2725dad57b45c85eb0" category="paragraph">다음 그림에서는 데이터베이스 리소스, 리소스 그룹 및 정책 간의 관계를 보여 줍니다.</block>
-  <block id="c3bc5ff261b700cf2f6140bad7454c1c" category="image-alt">SCO 리소스 그룹 정책입니다</block>
   <block id="bc9f89729bc570541b5b790a7dc8c706" category="summary">컨테이너 데이터베이스 \(CDB\)의 다른 PDB에 영향을 주지 않고 손상되거나 삭제된 플러그형 데이터베이스(PDB)를 복원 및 복구할 수 있습니다. SnapCenter는 RMAN을 사용하여 PDB의 시점 복구\(PITR\)를 수행합니다.</block>
   <block id="d1af1ec910f75c39d71a8c724311cf70" category="doc">시점 복구를 사용하여 플러그형 데이터베이스를 복원 및 복구합니다</block>
   <block id="67c0f00b8c6868021a12f861ec356775" category="paragraph">컨테이너 데이터베이스(CDB)의 다른 PDB에 영향을 주지 않고 손상되거나 삭제된 플러그형 데이터베이스(PDB)를 복원 및 복구할 수 있습니다. SnapCenter는 RMAN을 사용하여 PDB의 시점 복구(PITR)를 수행합니다.</block>
@@ -2231,7 +2176,6 @@ _C:\Program Files\NetApp\SnapCenter Plug-in Creator\etc\custom_plugin_checksum_l
   <block id="6987bf979aa46f2f012544689e530ba8" category="paragraph">데이터베이스가 성공적으로 검색되도록 하려면 데이터베이스가 마운트된 상태 이상이어야 합니다. Oracle RAC(Real Application Clusters) 환경에서 검색을 수행하는 호스트의 RAC 데이터베이스 인스턴스는 데이터베이스 인스턴스를 성공적으로 검색하려면 마운트 상태 이상이어야 합니다. 검색된 데이터베이스만 리소스 그룹에 추가할 수 있습니다.</block>
   <block id="719fa5cf3cf0a0fd65399dc0b9ba9597" category="paragraph">호스트에서 Oracle 데이터베이스를 삭제한 경우 SnapCenter Server는 이를 인식하지 못하고 삭제된 데이터베이스를 나열합니다. SnapCenter 리소스 목록을 업데이트하려면 리소스를 수동으로 새로 고쳐야 합니다.</block>
   <block id="d5637dc8626943be066538cf923050b5" category="list-text">리소스 페이지의 * 보기 * 목록에서 * 데이터베이스 * 를 선택합니다.</block>
-  <block id="ddb5eb0de214c4f8ca63b100be025650" category="paragraph">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>호스트 이름과 데이터베이스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 를 클릭할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하여 필터 창을 닫습니다.</block>
   <block id="a52716605edda155f499cf4c4572c6d5" category="list-text">리소스 새로 고침 * 을 클릭합니다.</block>
   <block id="ffe07db18130be1419f3e22efa2b9af9" category="paragraph">RAC One Node 시나리오에서는 데이터베이스가 현재 호스팅되는 노드의 RAC 데이터베이스로 검색됩니다.</block>
   <block id="03ca1a8893eafac750fe33e2998cfff3" category="paragraph">* 결과 *</block>
@@ -2521,7 +2465,6 @@ PDB를 복제하는 자세한 단계는 를 참조하십시오 <block ref="8f4cb
   <block id="5299a9981347e8ed830ad1271991cfef" category="paragraph">그렇지 않으면 "sys" 사용자로 구성된 Oracle ASM 자격 증명 또는 클론 호스트에 적용할 수 있는 "sysasm" 권한이 있는 사용자를 선택합니다.</block>
   <block id="f437b2d19ac957d858a486434d127abb" category="paragraph">처방된 내용을 _/var/opt/snapcenter/SPL/scripts_ 또는 이 경로 내의 폴더에 저장해야 합니다. 기본적으로 _/var/opt/snapcenter/SPL/scripts_path가 채워집니다. 이 경로 내의 폴더에 스크립트를 배치한 경우 스크립트가 있는 폴더까지 전체 경로를 제공해야 합니다.</block>
   <block id="16fd6c5ba15e0b08636432410b53736d" category="list-text">데이터베이스 매개 변수 설정 섹션에서 데이터베이스를 초기화하는 데 사용되는 미리 채워진 데이터베이스 매개 변수의 값을 수정합니다.</block>
-  <block id="bb0b2c5483daeba4571c62a9f8c145a2" category="paragraph">를 클릭하여 추가 매개 변수를 추가할 수 있습니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>*.</block>
   <block id="740d25cb39f88917f1483c14a13c4359" category="paragraph">Oracle Standard Edition을 사용 중이고 데이터베이스가 아카이브 로그 모드에서 실행 중이거나 아카이브 redo 로그에서 데이터베이스를 복원하려면 매개 변수를 추가하고 경로를 지정합니다.</block>
   <block id="312ab5f954ecd0e93c772e23e3efbb64" category="list-text">LOG_ARCHIVE_DEST</block>
   <block id="9d702669585828b8f94fde687d36b914" category="list-text">log_archive_duplex_DEST</block>
@@ -2618,7 +2561,6 @@ PDB를 복제하는 자세한 단계는 를 참조하십시오 <block ref="8f4cb
   <block id="242cdc11ae22f217c93ae40e14e96194" category="paragraph">개별 리소스 그룹에 대한 자격 증명을 설정하고 사용자 이름에 전체 관리자 권한이 없는 경우 사용자 이름에 적어도 리소스 그룹 및 백업 권한이 있어야 합니다.</block>
   <block id="7b13621f41f0146d0ffd2434af94438a" category="paragraph">Oracle 데이터베이스 인증을 사용하도록 설정한 경우 리소스 보기에 빨간색 자물쇠 아이콘이 표시됩니다. 데이터베이스를 보호하거나 리소스 그룹에 데이터베이스 자격 증명을 추가하여 데이터 보호 작업을 수행하려면 데이터베이스 자격 증명을 구성해야 합니다.</block>
   <block id="9d84c90ce04a969ca09498823506ba1f" category="admonition">자격 증명을 생성하는 동안 잘못된 세부 정보를 지정하면 오류 메시지가 표시됩니다. 취소 * 를 클릭한 다음 다시 시도해야 합니다.</block>
-  <block id="f8cbfb3254bb5bd20533e8d1e586899c" category="list-text">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>호스트 이름과 데이터베이스 유형을 선택하여 리소스를 필터링합니다.</block>
   <block id="5de6e0a70b653c8dab85d2d2bccf04ae" category="list-text">데이터베이스를 선택한 다음 * 데이터베이스 설정 * &gt; * 데이터베이스 구성 * 을 클릭합니다.</block>
   <block id="6df18cfefa59a0d65ea120d8247b7ba8" category="list-text">데이터베이스 설정 구성 섹션의 * 기존 자격 증명 사용 * 드롭다운 목록에서 Oracle 데이터베이스에서 데이터 보호 작업을 수행하는 데 사용할 자격 증명을 선택합니다.</block>
   <block id="bc36b053b483bc3f05afdf22b15ab4cf" category="admonition">Oracle 사용자는 sysdba 권한을 가지고 있어야 합니다.</block>
@@ -2674,7 +2616,6 @@ PDB를 복제하는 자세한 단계는 를 참조하십시오 <block ref="8f4cb
   <block id="d832fec799a3a70760ed7fe13bef388d" category="list-text">Oracle RMAN(Recovery Manager)을 사용하여 백업 카탈로그를 작성한 경우에는 이러한 카탈로그 작성된 백업의 이름을 바꿀 수 없습니다.</block>
   <block id="123f58b5f6c3fc41829ae40b968fcda4" category="paragraph">Snap미러orStatusUpdateWaitTime 에 할당된 값이 적으면 데이터 및 로그 볼륨이 성공적으로 보호되더라도 미러 및 볼트 백업 복사본이 토폴로지 페이지에 나열되지 않습니다. _Set-SmConfigSettings_PowerShell cmdlet을 사용하여 Snap미러또는 StatusUpdateWaitTime에 할당된 값을 늘려야 합니다.</block>
   <block id="11dbb257c91d345a6a0cee430763b610" category="paragraph">명령에 사용할 수 있는 매개 변수 및 해당 설명에 대한 정보는 get-Help_command_name_을 실행하여 얻을 수 있습니다.</block>
-  <block id="c2e2989cd34de9d2b93fbc71f60ffe4e" category="paragraph">또는 을 참조할 수도 있습니다<block ref="868bc9c3fbc71eae2d899862af6d942e" category="inline-link-rx"></block> 또는<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="23257e3404df9a371ee4e65b5f6db441" category="summary">Oracle 데이터베이스를 복제하기 전에 필수 구성 요소가 완료되었는지 확인해야 합니다.</block>
   <block id="c3f3510a6fc8f24504e19e3fa075dcd8" category="doc">Oracle 데이터베이스 클론 생성 요구 사항</block>
   <block id="bfb53a478bb9e82caa1db74ed66d2437" category="list-text">SnapCenter를 사용하여 데이터베이스 백업을 만들어야 합니다.</block>
@@ -2819,7 +2760,6 @@ PDB를 복제하는 자세한 단계는 를 참조하십시오 <block ref="8f4cb
   <block id="d8c3b27e33a2869282039b9ff6a23fc5" category="doc">애플리케이션 볼륨을 백업합니다</block>
   <block id="eba902edb76de30c0b6c9d32f53d05ed" category="paragraph">애플리케이션 볼륨이 리소스 그룹에 속하지 않은 경우 리소스 페이지에서 애플리케이션 볼륨을 백업할 수 있습니다.</block>
   <block id="5fdfa1dd7a57ddc13008214530f96a84" category="list-text">리소스 페이지의 * 보기 * 목록에서 * 응용 프로그램 볼륨 * 을 선택합니다.</block>
-  <block id="520f85e55e2b17285c39b1ad458556a0" category="list-text">를 클릭합니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 누른 다음 호스트 이름과 데이터베이스 유형을 선택하여 리소스를 필터링합니다.</block>
   <block id="c6cc754896fef7ff6303bf792f45397f" category="list-text">백업할 애플리케이션 볼륨을 선택합니다.</block>
   <block id="fb532da51d82ae5118e8f3d5cb3bbd50" category="paragraph">Application volume-protect(애플리케이션 볼륨 보호) 페이지가 표시됩니다.</block>
   <block id="8d2ba99665e114b5e2a9d74a31cdf554" category="list-text">리소스 페이지에서 다음 작업을 수행합니다.</block>
@@ -2971,7 +2911,6 @@ PDB를 복제하는 자세한 단계는 를 참조하십시오 <block ref="8f4cb
   <block id="bfed89e7bc468020d264ba44570cb258" category="list-text">모니터 페이지 또는 작업 창에서 백업 작업을 취소할 수 있습니다.</block>
   <block id="6ead40700edacacddf2e163b14792949" category="list-text">SnapCenter GUI를 사용하는 것 외에도 CLI 명령을 사용하여 작업을 취소할 수 있습니다.</block>
   <block id="288e6f17e0e4e6641bd8834d75c83cc3" category="list-text">작업을 선택하고 * 작업 취소 * 를 클릭합니다.</block>
-  <block id="53606748062c599b4ce202237295ee32" category="list-text">백업 작업을 시작한 후 를 클릭합니다 <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block> 를 클릭하여 가장 최근 작업 5개를 확인합니다.</block>
   <block id="f99ed48ad453fc5752d3cb633588ec73" category="paragraph">작업이 취소되고 리소스가 원래 상태로 돌아갑니다.</block>
   <block id="1a75cd98b02615b4d68d5425fefe32ad" category="paragraph">취소한 작업이 취소 또는 실행 상태에서 응답하지 않는 경우 Cancel-SmJob-jobid &lt;int&gt;-Force 를 실행하여 백업 작업을 강제로 중지해야 합니다.</block>
   <block id="8b6b14f8ee2bef8618a7a68823627672" category="summary">더 이상 필요하지 않은 경우 플러그형 데이터베이스\(PDB\)의 클론을 삭제할 수 있습니다.</block>
@@ -2981,7 +2920,6 @@ PDB를 복제하는 자세한 단계는 를 참조하십시오 <block ref="8f4cb
   <block id="0a86810ca19714269dbf245dd700442c" category="admonition">PDB 클론은 인벤토리 또는 리소스 보기에 표시되지 않습니다.</block>
   <block id="1e5afaa745cf150ad4119d4e1119ae56" category="list-text">리소스 또는 리소스 그룹 보기에서 소스 컨테이너 데이터베이스(CDB)를 선택합니다.</block>
   <block id="09927e90b474cc9f796b7d9acc2e1efb" category="list-text">Manage Copies 뷰에서 운영 또는 2차(미러링 또는 복제) 스토리지 시스템에서 * Clones * 를 선택합니다.</block>
-  <block id="6927683b616825cb773183b147e9e3fa" category="list-text">PDB 클론(targetCDB:PDBClone)을 선택한 다음 을 클릭합니다 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="241427aa082547643032d9ac47ab0dda" category="summary">Oracle 데이터베이스를 복구하기 전에 사전 요구 사항이 완료되었는지 확인해야 합니다.</block>
   <block id="e4efd46999918866976643fdf1c3041d" category="doc">Oracle 데이터베이스 복구 요구 사항</block>
   <block id="58f28c7080a3b5a4d907dfdece1ece75" category="list-text">복원 및 복구 전략을 정의해야 합니다.</block>
@@ -3017,11 +2955,9 @@ PDB를 복제하는 자세한 단계는 를 참조하십시오 <block ref="8f4cb
   <block id="80e5eb37566e84270d23254e8f050156" category="list-text">리소스 페이지의 * 보기 * 목록에서 * 응용 프로그램 볼륨 * 을 선택하여 추가한 모든 응용 프로그램 볼륨을 봅니다.</block>
   <block id="088ea09c5845b030ebf8ae5975d090cb" category="section-title">애플리케이션 볼륨을 수정합니다</block>
   <block id="6c6c48e7a3a56b7164aaa8b8eb204354" category="paragraph">백업이 생성되지 않은 경우 애플리케이션 볼륨을 추가하는 동안 지정한 모든 값을 수정할 수 있습니다. 백업이 생성된 경우 스토리지 시스템 세부 정보만 수정할 수 있습니다.</block>
-  <block id="41287e6665f1099d8af67183be117ffc" category="list-text">을 클릭합니다 <block ref="b170295de64fe7950f9915b4f1c0fac4" category="inline-image-macro-rx" type="image"></block> 를 눌러 값을 수정합니다.</block>
   <block id="c1911e0054742b788fdc5f1e0f6cc47e" category="section-title">응용 프로그램 볼륨을 삭제합니다</block>
   <block id="6aa91ea36ae383d376ecec0ff3aa3575" category="paragraph">응용 프로그램 볼륨을 삭제할 때 응용 프로그램 볼륨과 연결된 백업이 있으면 응용 프로그램 볼륨은 유지 관리 모드로 전환되고 새 백업이 생성되지 않으며 이전 백업은 보존되지 않습니다. 연결된 백업이 없으면 모든 메타데이터가 삭제됩니다.</block>
   <block id="27b451b71b83ad1f7c199e95beacd26c" category="paragraph">필요한 경우 SnapCenter를 사용하여 삭제 작업을 실행 취소할 수 있습니다.</block>
-  <block id="13840d01141e8e459d92602ca84e3418" category="list-text">을 클릭합니다 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block> 를 눌러 값을 수정합니다.</block>
   <block id="6faa8eb5ad385d7b9d987de9ed13bb96" category="summary">SnapCenter를 사용하면 데이터베이스를 복제하는 동안 처방과 PS를 실행할 때 미리 정의된 환경 변수를 사용할 수 있습니다.</block>
   <block id="23623438990ee2646061fa46ca8d9c90" category="doc">클론별 정의 정의 지정 지정 지정 및 PostScript에 대한 사전 정의된 환경 변수입니다</block>
   <block id="36c03e148801ad7963d0bd10e6e81e5b" category="paragraph">* 데이터베이스 복제를 위해 미리 정의된 환경 변수 지원 *</block>
@@ -3197,7 +3133,6 @@ ASMLib를 사용하거나 사용하지 않고 ASM의 Oracle 데이터베이스�
   <block id="4cdff21e1a3b3a11f16dc574421a1599" category="doc">Oracle 데이터베이스 클론을 분할합니다</block>
   <block id="b1b82801e9c78c50ebcf99fde0aea87a" category="list-text">클론을 분할하면 클론의 백업 복사본이 삭제됩니다.</block>
   <block id="cba97cc8f5b2bb7297dd2360ae8b024a" category="list-text">클론 분할 작업 제한에 대한 자세한 내용은 를 참조하십시오<block ref="3ae98799f9586e965a749204c2b3e8f9" category="inline-link-rx"></block>.</block>
-  <block id="932be043b11149e991bf82c52befcebf" category="list-text">복제된 리소스(예: 데이터베이스 또는 LUN)를 선택한 다음 을 클릭합니다 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="c073ee3bf31639ca8cd5dfdf2fe18185" category="paragraph">SMCore 서비스가 다시 시작되고 클론 분할 작업이 수행된 데이터베이스가 리소스 페이지에 클론으로 나열되면 클론 분할 작업이 응답하지 않습니다. 클론 분할 작업을 중지하려면 _Stop-SmJob_cmdlet을 실행한 다음 클론 분할 작업을 다시 시도해야 합니다.</block>
   <block id="103e35e260868e1aa1c36274a7301158" category="paragraph">폴링 시간을 더 오래 설정하거나 폴링 시간을 짧게 하여 클론이 분할되었는지 여부를 확인하려면 SMCoreServiceHost.exe.config 파일에서 CloneSplitStatusCheckPollTime 매개 변수의 값을 변경하여 SMCore가 클론 분할 작업의 상태를 폴링할 시간 간격을 설정할 수 있습니다. 값은 밀리초이고 기본값은 5분입니다.</block>
   <block id="fbfa277a055cde6a44aa257516ef119c" category="admonition">백업, 복원 또는 다른 클론 분할이 진행 중인 경우 클론 분할 시작 작업이 실패합니다. 실행 중인 작업이 완료된 후에만 클론 분할 작업을 다시 시작해야 합니다.</block>
@@ -3205,7 +3140,6 @@ ASMLib를 사용하거나 사용하지 않고 ASM의 Oracle 데이터베이스�
   <block id="b50ed45fe1d5aaeff11017e2203d685b" category="doc">플러그형 데이터베이스의 클론 분할</block>
   <block id="9a74e4c2ef4e109873578f5a78083805" category="paragraph">SnapCenter를 사용하여 복제된 PDB(플러그형 데이터베이스)를 분할할 수 있습니다.</block>
   <block id="0841514f865605a705539d269e140769" category="paragraph">PDB가 복제되는 대상 CDB의 백업을 생성한 경우 PDB 클론을 분할하면 복제된 PDB가 복제된 PDB가 포함된 대상 CDB의 모든 백업에서도 제거됩니다.</block>
-  <block id="fbea596c70f1dfc79ca7ad9bfdcc546a" category="list-text">PDB 클론(targetCDB:PDBClone)을 선택한 다음 을 클릭합니다 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="9349160e3cfa891f6e3eab62e5e808aa" category="summary">SnapCenter를 사용하여 애플리케이션 볼륨 백업을 클론 복제하고, 클론을 분할하고, 클론을 삭제할 수 있습니다.</block>
   <block id="bfea201e67b6d8c8dfeba47e522016aa" category="doc">클론 애플리케이션 볼륨 백업</block>
   <block id="32b6ce3b4c07da5c7a5e9de96444b2c2" category="paragraph">SnapCenter를 사용하여 애플리케이션 볼륨 백업을 복제할 수 있습니다.</block>
@@ -3215,12 +3149,10 @@ ASMLib를 사용하거나 사용하지 않고 ASM의 Oracle 데이터베이스�
   <block id="9368d3530000e47eb158e87cc138d4d2" category="paragraph">자원 이름을 지정합니다.</block>
   <block id="b171e637bb7cf16f18741fbe5702d170" category="list-text">스크립트 페이지에서 클론 생성 전에 실행할 스크립트의 이름, 파일 시스템을 마운트하는 명령 및 클론 생성 후 실행할 스크립트의 이름을 지정합니다.</block>
   <block id="056f16a497e3816baf36ca8bb1f47e69" category="section-title">애플리케이션 볼륨 클론을 분할합니다</block>
-  <block id="04e3f50ebfc3fe23fe3b15e74ef0c167" category="list-text">클론 생성된 리소스를 선택하고 을 클릭합니다 <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="1ea3b0b9fdff483105222183288bb47b" category="section-title">애플리케이션 볼륨 클론을 삭제합니다</block>
   <block id="84725751afcea79e33e8f51ae4a1add6" category="paragraph">더 이상 필요하지 않은 클론은 삭제할 수 있습니다. 다른 클론의 소스와 같은 역할을 하는 클론은 삭제할 수 없습니다.</block>
   <block id="3f295f5098166bae5cf6c4e7ed277958" category="list-text">목록에서 리소스 또는 리소스 그룹을 선택합니다.</block>
   <block id="a64016381e6438b14094f8f349371c74" category="paragraph">리소스 또는 리소스 그룹 토폴로지 페이지가 표시됩니다.</block>
-  <block id="d718de0b5487a29072ea2bbe613540c0" category="list-text">클론을 선택한 다음 을 클릭합니다 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="f79f988986305ca48b434d9c452f0fdb" category="list-text">클론 삭제 페이지에서 다음 작업을 수행합니다.</block>
   <block id="1e447fb792662667ec4578cd8ef8741b" category="list-text">Pre clone delete * 필드에 클론을 삭제하기 전에 실행할 스크립트의 이름을 입력합니다.</block>
   <block id="187e28de4999abb638ae7c5cf67e1a4f" category="list-text">클론을 삭제하기 전에 * Unmount * 필드에 클론을 마운트 해제하는 명령을 입력합니다.</block>
@@ -3253,7 +3185,6 @@ ASMLib를 사용하거나 사용하지 않고 ASM의 Oracle 데이터베이스�
   <block id="57af7cc9669227d9ac6afec5db802561" category="paragraph">모든 대상에서 * 아카이브 로그 삭제 * 를 선택합니다.</block>
   <block id="be859d432cb8f72f5fb9b4c1622d56b1" category="paragraph">백업의 일부인 로그 대상에서 아카이브 로그를 삭제합니다</block>
   <block id="3330083979ff2e07d7e4609ee2228f08" category="paragraph">백업에 포함된 대상에서 * 아카이브 로그 삭제 * 를 선택합니다.</block>
-  <block id="27f6bf9956fb5d538b6d1793de7a2624" category="paragraph"><block ref="27f6bf9956fb5d538b6d1793de7a2624" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9696f79f02f1b72ee2751fa3ac8cee1b" category="admonition">백업의 일부로 아카이브 로그 파일을 선택한 경우에만 아카이브 로그 백업을 보존할 수 있습니다.</block>
   <block id="1841ccf0461e2eaacdadd6d0965185ca" category="paragraph">로컬 스냅샷 복사본을 생성한 후 SnapMirror를 업데이트합니다</block>
   <block id="5599318ff76ac470ccc995aab6f33577" category="paragraph">로컬 스냅샷 복사본을 생성한 후 SnapVault를 업데이트합니다</block>
@@ -3762,7 +3693,6 @@ SLM에 대한 자세한 내용은 을 참조하십시오<block ref="cb74c6abbb61
   <block id="3c8499d37e5b698773c087e64ded0e3e" category="list-text">사용 가능한 리소스* 섹션에서 선택한 리소스 섹션으로 리소스를 이동하려면 다음 단계 중 하나를 수행하십시오.</block>
   <block id="d5e1fd204fed10a4447207586da4f7c6" category="list-text">동일한 스토리지 볼륨에 있는 모든 리소스를 선택한 리소스 섹션으로 이동하려면 * 동일한 스토리지 볼륨에 있는 모든 리소스를 자동 선택 * 을 선택합니다.</block>
   <block id="6a56bc07f3745de1f0cdc0e035cac845" category="list-text">사용 가능한 리소스 * 섹션에서 리소스를 선택한 다음 오른쪽 화살표를 클릭하여 * 선택한 리소스 * 섹션으로 이동합니다.</block>
-  <block id="326396bcf3264f58325650243635c607" category="list-text">선택한 정책에 대한 일정 구성 섹션에서 * 를 클릭합니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>일정을 구성하려는 정책에 대한 스케줄 구성 열의</block>
   <block id="351f7bad3082107e47ad4d5178c303b5" category="list-text">policy_policy_name_schedules 추가 대화 상자에서 시작 날짜, 만료 날짜 및 빈도를 지정하여 스케줄을 구성한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="1d40f8a03f97a2b7db68e496f7964df0" category="paragraph">정책에 나열된 각 빈도에 대해 이 작업을 수행해야 합니다. 구성된 스케줄은 * 선택한 정책에 대한 스케줄 구성 * 섹션의 적용된 스케줄 열에 나열됩니다.</block>
   <block id="b527fc3a6976bd9e2f49e06db6a69f45" category="list-text">Microsoft SQL Server 스케줄러를 선택합니다.</block>
@@ -3773,7 +3703,6 @@ SLM에 대한 자세한 내용은 을 참조하십시오<block ref="cb74c6abbb61
   <block id="c77d16e2631c1e539982c0bc793f22b0" category="paragraph">목록에는 SnapCenter에 추가된 모든 SQL Server가 포함됩니다. 여러 검증 서버(로컬 호스트 또는 원격 호스트)를 선택할 수 있습니다.</block>
   <block id="35a91e9ad1ffed78f81a00fbc833fa69" category="admonition">검증 서버 버전은 기본 데이터베이스를 호스팅하는 SQL Server의 버전 및 버전과 일치해야 합니다.</block>
   <block id="34098500b6237d2918a60eeb7bc52132" category="list-text">Load locators * 를 클릭하여 SnapMirror 및 SnapVault 볼륨을 로드하여 보조 스토리지에 대한 검증을 수행합니다.</block>
-  <block id="a69de308424c0233fb5435c6ed27ec7d" category="list-text">확인 일정을 구성할 정책을 선택한 다음 * 를 클릭합니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>*.</block>
   <block id="55fe9b117fac71b33a8f95f9010bde5a" category="paragraph">Run scheduled verification * 을 선택합니다.</block>
   <block id="b39614f1e3ff23cc5b5cd5fd6bf27259" category="inline-image-macro">아이콘을 클릭하여 구성된 스케줄을 편집합니다</block>
   <block id="5f11c7889df3330ff1f653f5e5702931" category="inline-image-macro">삭제 아이콘</block>
@@ -3799,7 +3728,6 @@ SLM에 대한 자세한 내용은 을 참조하십시오<block ref="cb74c6abbb61
   <block id="3b9b501ce9ff4819d459190476007edc" category="paragraph">예를 들어 customtext_policy_hostname 또는 resource_hostname을 입력합니다. 기본적으로 스냅샷 복사본 이름에 타임스탬프가 추가됩니다.</block>
   <block id="fb87909a252e4e2dc396bcfb921e0428" category="list-text">정책 페이지에서 다음 작업을 수행합니다.</block>
   <block id="075e5d48960664645c5727a530a7c640" category="list-text">정책 섹션의 드롭다운 목록에서 하나 이상의 정책을 선택합니다.</block>
-  <block id="8651b9793bd6c1e48d295567e332b963" category="paragraph">* 를 클릭하여 정책을 생성할 수 있습니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>를 눌러 정책 마법사를 시작합니다.</block>
   <block id="204b899f0e95e32b80ec8ea79f53c1ec" category="paragraph">선택한 정책에 대한 일정 구성 * 섹션에 선택한 정책이 나열됩니다.</block>
   <block id="730f69a1c6fa686c684abab6e3e4ce4c" category="list-text">에 정책 * 에 대한 스케줄 추가 * 가 있습니다<block ref="4595028aeeeb2fdba0f5fec9c2385d0d" prefix=" " category="inline-code"></block> 대화 상자에서 스케줄을 구성한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="08fe75bd987fb2dedbe7641f478927f0" category="paragraph">여기<block ref="4595028aeeeb2fdba0f5fec9c2385d0d" prefix=" " category="inline-code"></block> 선택한 정책의 이름입니다.</block>
@@ -3821,7 +3749,6 @@ SLM에 대한 자세한 내용은 을 참조하십시오<block ref="cb74c6abbb61
   <block id="a1a0f86f12eb6f7b0a51545fae87d6ed" category="paragraph">다음 워크플로에서는 백업 작업을 수행해야 하는 순서를 보여 줍니다.</block>
   <block id="a9a36931adb350bdf3480cb9845a8fc8" category="image-alt">SCSQL 백업 워크플로우</block>
   <block id="780c1b490607a3963a4db9b069dbf1e2" category="admonition">NetApp이 아닌 LUN, 손상된 데이터베이스 또는 복원 중인 데이터베이스를 선택하면 Resources 페이지의 Backup Now, Restore, Manage Backups 및 Clone 옵션이 비활성화됩니다.</block>
-  <block id="551a33d207af23d33dc7ae8b0fcc767e" category="paragraph">PowerShell cmdlet을 수동으로 또는 스크립트에서 사용하여 백업, 복원, 복구, 확인 및 클론 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block></block>
   <block id="70a3b8963fff53a1f81a125297906687" category="section-title">SnapCenter가 데이터베이스를 백업하는 방법</block>
   <block id="fe38a38405ced1973299d2b175c66a79" category="paragraph">SnapCenter는 스냅샷 복사본 기술을 사용하여 LUN 또는 VMDK에 상주하는 SQL Server 데이터베이스를 백업합니다. SnapCenter은 데이터베이스의 스냅샷 복사본을 생성하여 백업을 생성합니다.</block>
   <block id="05e0444569b01c1a835c376c06e5d120" category="paragraph">리소스 페이지에서 전체 데이터베이스 백업에 사용할 데이터베이스를 선택하면 SnapCenter는 동일한 스토리지 볼륨에 상주하는 다른 모든 데이터베이스를 자동으로 선택합니다. LUN 또는 VMDK에서 하나의 데이터베이스만 저장하는 경우 데이터베이스를 개별적으로 선택 또는 다시 선택할 수 있습니다. LUN 또는 VMDK에 여러 데이터베이스가 포함된 경우 데이터베이스를 그룹으로 선택 또는 다시 선택해야 합니다.</block>
@@ -3981,7 +3908,6 @@ FAS 또는 AFF 스토리지를 사용하여 평가판을 통해 SnapCenter를 �
   <block id="3bb68819532539f48f629ba62348a6c6" category="paragraph">예를 들어, 사용자가 데이터베이스에 대한 보기 액세스 권한만 있는 경우 데이터베이스의 파일 및 속성을 식별할 수 없으므로 백업할 수 없습니다.</block>
   <block id="7d48eed4487109a3829d0196f297a492" category="admonition">SQL Server Standard Edition에 가용성 그룹 구성이 있는 경우 SnapCenter는 기본 데이터베이스만 백업할 수 있습니다.</block>
   <block id="8057ae87eee7a0579409f47c9591745e" category="list-text">리소스 페이지의 * 보기 * 드롭다운 목록에서 * 데이터베이스 * 또는 * 인스턴스 * 또는 * 가용성 그룹 * 을 선택합니다.</block>
-  <block id="c3a876612603db3849e76480edcc8121" category="paragraph">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 호스트 이름과 SQL Server 인스턴스를 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 를 눌러 필터 창을 닫습니다.</block>
   <block id="e447517e5ec13b3c9e98a7c686d29ac7" category="paragraph">새로 추가, 이름 변경 또는 삭제된 리소스가 SnapCenter 서버 인벤토리로 업데이트됩니다.</block>
   <block id="b8b5141218dbfab4fdbf5b5063dfa880" category="paragraph">리소스는 리소스 유형, 호스트 또는 클러스터 이름, 관련 리소스 그룹, 백업 유형, 정책 및 전체 상태와 같은 정보와 함께 표시됩니다.</block>
   <block id="e47a2cdbd770e8e20b9c7261dcf67926" category="list-text">데이터베이스가 비 NetApp 스토리지에 있는 경우<block ref="5ad938d16e3b0d14368f810cc13f6c40" prefix=" " category="inline-code"></block> 이(가) * Overall Status *(전체 상태) 열에 표시됩니다.</block>
@@ -3998,7 +3924,6 @@ FAS 또는 AFF 스토리지를 사용하여 평가판을 통해 SnapCenter를 �
   <block id="c0c5b186e05df9e6ae423f4ea8250abf" category="paragraph">다음은 ALM 구성의 예입니다.</block>
   <block id="daeb552c90aac11e349828429974d376" category="list-text">다중 사이트 데이터 센터에서 두 개의 FCI(장애 조치 클러스터 인스턴스)</block>
   <block id="09952efebe47747a2be28706fb559f5c" category="list-text">재해 복구 사이트에서 독립 실행형 인스턴스를 사용하여 재해 복구를 위한 로컬 HA(고가용성) 및 AG(가용성 그룹)용 FCI</block>
-  <block id="64e8969e45b911603c0aa0dc2d3f743f" category="image-alt">비대칭 LUN 매핑 다이어그램</block>
   <block id="047292a89758275d763e235a846b8712" category="paragraph">운영 데이터 센터의 스토리지는 운영 데이터 센터에 있는 FCI 노드 간에 공유됩니다. 재해 복구 데이터 센터의 스토리지는 재해 복구 데이터 센터에 있는 FCI 노드 간에 공유됩니다.</block>
   <block id="7d6c564058645b974e7a066a328c9765" category="paragraph">운영 데이터 센터의 스토리지는 재해 복구 데이터 센터의 노드에 표시되지 않으며 그 반대의 경우도 마찬가지입니다.</block>
   <block id="19f41a1b89c8c0b2bc4c7041effadc74" category="paragraph">ALM 아키텍처는 FCI에서 사용하는 두 개의 공유 스토리지 솔루션과 SQL AG에서 사용하는 비공유 또는 전용 스토리지 솔루션을 결합합니다. AG 솔루션은 데이터 센터 전체에서 공유 디스크 리소스에 동일한 드라이브 문자를 사용합니다. WSFC 내의 노드 하위 집합 간에 클러스터 디스크를 공유하는 이러한 스토리지 배열을 ALM이라고 합니다.</block>
@@ -4108,7 +4033,6 @@ FAS 또는 AFF 스토리지를 사용하여 평가판을 통해 SnapCenter를 �
   <block id="4632a6c67f803e17d68ebb34598a6785" category="admonition">인스턴스 백업 클론 생성은 지원되지 않습니다.</block>
   <block id="42bc133dbae7dbb6cec9ed93a48aaa65" category="list-text">데이터베이스 또는 리소스 그룹을 선택합니다.</block>
   <block id="25c32a730da76a44edba3eed7970d7b5" category="list-text">복사본 관리 보기 페이지에서 기본 또는 보조(미러링 또는 보관된) 스토리지 시스템에서 백업을 선택합니다.</block>
-  <block id="d9f15a1f5a532a10eedb724ee7cefae8" category="list-text">백업을 선택한 다음 * 를 클릭합니다<block ref="44cb43ff1bef6ac179dd09e52aa35b83" category="inline-image-macro-rx" type="image"></block>*.</block>
   <block id="01e2b44d2ed56123a7aac06f5ddcc2c1" category="list-text">클론 옵션 페이지에서 다음 작업을 수행합니다.</block>
   <block id="530587cce0e3987bdf3bb0fa8eb1fafb" category="paragraph">클론을 생성할 호스트를 선택합니다.</block>
   <block id="172ad591d7bca3f8b16f72da9e187238" category="paragraph">클론 인스턴스</block>
@@ -4139,7 +4063,6 @@ FAS 또는 AFF 스토리지를 사용하여 평가판을 통해 SnapCenter를 �
   <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="230797cd257f4279279a678587ed7d3e" category="summary">SQL Server 데이터베이스를 보호하려면 Microsoft SQL Server용 SnapCenter 플러그인을 설치하고 설정해야 합니다.</block>
   <block id="f03c757efff1b7a92c7b30cbc8c7c0b8" category="doc">Microsoft SQL Server용 SnapCenter 플러그인 설치 워크플로</block>
-  <block id="33666019cac43e63f53db79cad8f33ac" category="image-alt">scsql 설치 워크플로우 구성</block>
   <block id="81a77062a70718e0452154930df7ac35" category="doc">SQL 리소스 클론 작업을 취소합니다</block>
   <block id="0441f921ecb29005b4b309df792042a3" category="summary">SQL Server에 대한 복원 전략을 정의하면 데이터베이스를 성공적으로 복원할 수 있습니다.</block>
   <block id="24fc557949539a292d3c18f3c9454f62" category="doc">SQL Server에 대한 복원 전략을 정의합니다</block>
@@ -4198,8 +4121,6 @@ FAS 또는 AFF 스토리지를 사용하여 평가판을 통해 SnapCenter를 �
   <block id="bb7367ec62fb74511977df150181bc7f" category="doc">SnapCenter 서버 및 플러그인 설치 준비</block>
   <block id="63408836354c40518fc610de2ff61aef" category="paragraph">SnapCenter 서버 및 Microsoft SQL Server용 SnapCenter 플러그인 설치를 위한 준비 지침의 요약 세트를 제공합니다.</block>
   <block id="cfcb453ff70ad933cab89769866a7ca8" category="paragraph">을 참조하십시오<block ref="895e9fc4fedf805e54b700a772e16c16" category="inline-link-rx"></block></block>
-  <block id="aa829ddf1acbdd2a8aa6a61635c33dec" category="inline-link-macro">보관된 백업을 가져옵니다</block>
-  <block id="b06af5128852d56366a94b0a3584c1a6" category="paragraph">Microsoft SQL Server용 SnapManager를 사용하고 있고 SnapManager for Microsoft SQL Server에서 SnapCenter로 데이터를 가져오려면 를 참조하십시오 <block ref="0079f46f6850618db9fdf32f5f6051e0" category="inline-link-macro-rx"></block></block>
   <block id="3f62b0eaf385764495dac5125b982527" category="summary">백업 빈도 \(스케줄 유형\)는 정책에 지정되고 백업 스케줄은 리소스 그룹 구성에 지정됩니다.</block>
   <block id="dbdd98555d291afd9b94036b7bae42c4" category="doc">SQL Server용 플러그인 백업 스케줄입니다</block>
   <block id="8c2706ff7c5260b28a36b7642f3fdcf7" category="summary">SnapCenter 사용자 인터페이스 내에서 Microsoft SQL Server용 SnapCenter 플러그인을 설치해야 합니다. 그러나 어떤 이유로 인해 Windows 명령줄에서 자동 모드로 SQL Server용 플러그인 설치 프로그램을 실행할 수 없습니다.</block>
@@ -4282,7 +4203,6 @@ FAS 또는 AFF 스토리지를 사용하여 평가판을 통해 SnapCenter를 �
   <block id="200173e810f24d588054234ea90379a4" category="paragraph">새 백업 옆에 "i" 아이콘이 표시되어 DR 모드 중에 이러한 백업이 생성되었음을 나타냅니다.</block>
   <block id="5e7078fc2c5f11497c9f2a56ffd9b736" category="list-text">UI 또는 다음 cmdlet을 사용하여 페일오버 중에 생성된 SQL Server 백업용 SnapCenter 플러그인을 삭제할 수 있습니다.<block ref="deedcb4a01370ff7adf6a8a79cd7d1e0" prefix=" " category="inline-code"></block></block>
   <block id="b46fdb28b1bf03616f61fcda6f266b96" category="list-text">장애 조치 후 일부 리소스를 DR 모드가 아닌 모드로 설정하려면 다음 cmdlet을 사용합니다.<block ref="c15a3d6bef369bbee5b5a45642d3de86" prefix=" " category="inline-code"></block></block>
-  <block id="36b5bc8569a0d58f30345b63446499e3" category="paragraph">자세한 내용은 를 참조하십시오<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="7ccaeb1e46c3ede7b5c8c6431b09266a" category="list-text">SnapCenter 서버는 DR 또는 비 DR 모드에 있지만 DR 모드 또는 비 DR 모드에 있는 스토리지 리소스가 있는 리소스 그룹이 아닌 개별 스토리지 리소스(SQL 데이터베이스)를 관리합니다.</block>
   <block id="5a84253a41c8716d8113fbb5704f5cb7" category="summary">SnapCenterAdd 호스트 페이지를 사용하여 호스트를 추가하고 플러그인 패키지를 설치해야 합니다. 플러그인은 원격 호스트에 자동으로 설치됩니다.</block>
   <block id="a3c94a7e24d43ebc327c3a46c41a87f3" category="doc">호스트를 추가하고 Windows용 SnapCenter 플러그인 패키지를 설치합니다</block>
@@ -4345,15 +4265,12 @@ Windows 사용자에게 SQL Server에 대한 sysadmin 권한이 있는 경우 Wi
   <block id="57dec0d5fea8ca9066aa74005656dde3" category="section-title">2단계: 인스턴스 구성</block>
   <block id="9cfc80fa5227a423a76220ce430d990c" category="list-text">왼쪽 탐색 창에서 * 리소스 * 를 클릭합니다.</block>
   <block id="9b2d19ed2c6ef4ad66cf85a7f008aa99" category="list-text">리소스 페이지의 * 보기 * 목록에서 * 인스턴스 * 를 선택합니다.</block>
-  <block id="ae829e34e763c62f7fbf84dd61e419e2" category="list-text">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 클릭한 다음 호스트 이름을 선택하여 인스턴스를 필터링합니다.</block>
-  <block id="e50f0759502e9232b70d6a9904881524" category="list-text">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 를 눌러 필터 창을 닫습니다.</block>
   <block id="3729214a02912f5fc0f81c3f5dffad3b" category="list-text">인스턴스 보호 페이지에서 인스턴스를 보호하고 필요한 경우 * 자격 증명 구성 * 을 클릭합니다.</block>
   <block id="5479732a2e06d6b7a50f564e8fe27e30" category="paragraph">SnapCenter 서버에 로그인한 사용자가 Microsoft SQL Server용 SnapCenter 플러그인에 액세스할 수 없는 경우 사용자는 자격 증명을 구성해야 합니다.</block>
   <block id="8cfd48e3d0704f372da00b7de212f299" category="admonition">자격 증명 옵션은 데이터베이스 및 가용성 그룹에는 적용되지 않습니다.</block>
   <block id="e1648da076ced3c1817678512208f9c2" category="doc">리소스, 리소스 그룹 및 정책을 사용하여 SQL Server를 보호하는 방법</block>
   <block id="487a53be0a7591a408a6869c3857445e" category="list-text">리소스는 일반적으로 SnapCenter을 사용하여 백업 또는 복제하는 데이터베이스, 데이터베이스 인스턴스 또는 Microsoft SQL Server 가용성 그룹입니다.</block>
   <block id="d88bacbb5672d08c2bee7f25fb3fc697" category="paragraph">보호하려는_대상_과 이를 보호할 시기를 요일과 시간으로 정의하는 자원 그룹을 생각해 보십시오. 정책을 정의하는 _ 방법 _ 을(를) 보호하려는 것으로 생각해 보십시오. 예를 들어 모든 데이터베이스를 백업하거나 호스트의 모든 파일 시스템을 백업하는 경우 모든 데이터베이스나 호스트의 모든 파일 시스템을 포함하는 리소스 그룹을 생성할 수 있습니다. 그런 다음 리소스 그룹에 일별 정책과 시간별 정책이라는 두 가지 정책을 연결할 수 있습니다. 리소스 그룹을 생성하고 정책을 연결할 때 매일 전체 백업을 수행하고 로그 백업을 매시간 수행하는 다른 일정을 수행하도록 리소스 그룹을 구성할 수 있습니다.</block>
-  <block id="98a31c63f0ad69ee2075cb6cc6584bd3" category="image-alt">scsql resourcegroup 정책입니다</block>
   <block id="c7abd5797dbf501112fdb42c49a4df92" category="doc">PowerShell cmdlet을 사용하여 백업을 제거합니다</block>
   <block id="98d00f0950d49399aca5b7e5b8865719" category="summary">Microsoft SQL Server용 SnapCenter 플러그인에는 최신 복원 작업을 수행하기 위한 트랜잭션 로그 백업이 필요합니다. 이 작업은 데이터베이스를 두 개의 전체 백업 사이의 시간으로 복원합니다.</block>
   <block id="fdc4a4ab9ed4ec8a0e816124044ffbb2" category="doc">소스 스토리지 시스템에서 트랜잭션 로그 백업을 유지하는 데 걸리는 시간</block>
@@ -4472,7 +4389,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="020883c1843059deced1a2bddac4e0ce" category="admonition">SnapCenter은 서로 다른 클러스터에서 동일한 이름의 여러 SVM을 지원하지 않습니다. SnapCenter에서 지원하는 각 SVM에는 고유한 이름이 있어야 합니다.</block>
   <block id="42e20be165e590208778cbb0b28a11ce" category="list-text">호스트 추가, 플러그인 설치, 리소스 검색(새로 고침) 및 플러그인 구성</block>
   <block id="b3721954b25a4acdb3a4229ac3e0b5f8" category="list-text">Invoke-SmConfigureResources를 실행하여 로컬 디스크에서 NetApp LUN으로 기존 Microsoft SQL Server 데이터베이스를 이동하거나 그 반대로 이동합니다.</block>
-  <block id="2dfd0f9f208059d0a9543cb1558cea8f" category="paragraph">cmdlet 실행에 대한 자세한 내용은 을 참조하십시오<block ref="3f0d4c4b3a1c9cfa1189bb7484d60c1b" category="inline-link-rx"></block></block>
   <block id="eefa922509507f72bc1a8ad3abe353fd" category="list-text">SnapCenter 서버를 사용하여 VMware RDM LUN 또는 VMDK에 상주하는 SQL 데이터베이스를 보호하는 경우 VMware vSphere용 SnapCenter 플러그인을 구축하고 SnapCenter에 플러그인을 등록해야 합니다. 자세한 내용은 VMware vSphere용 SnapCenter 플러그인 설명서를 참조하십시오.</block>
   <block id="2d3786cce4bbee81c9852997cc1bef39" category="paragraph"><block ref="2d3786cce4bbee81c9852997cc1bef39" category="inline-link-rx"></block></block>
   <block id="cb40b95d1f81d27f63b648f2d12941e5" category="list-text">Microsoft Windows용 SnapCenter 플러그인을 사용하여 호스트 측 스토리지 프로비저닝을 수행합니다.</block>
@@ -4567,7 +4483,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="4507e0d1a42287b926181e4cb9fda1cf" category="summary">해결된 문제, 알려진 문제, 주의 및 제한 사항을 포함하여 SnapCenter 서버 및 SnapCenter 플러그인 패키지의 이 릴리스에 대한 중요 정보를 제공합니다.</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">릴리스 정보</block>
   <block id="a79368498522acef202a75204e93905e" category="inline-link">SnapCenter 소프트웨어 4.8 릴리스 정보</block>
-  <block id="c9d12743ca0ae0d66da7b9ce9795a0e8" category="paragraph">자세한 내용은 를 참조하십시오<block ref="9b9dacb6ec864e8f90c589c7a3a6bf3e" category="inline-link-rx"></block>.</block>
   <block id="34c24f1d15647adba6dcde96f1a84b95" category="summary">REST API를 사용하여 몇 가지 SnapCenter 관리 작업을 수행할 수 있습니다. REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이지에 액세스하여 REST API 설명서를 표시하고 API 호출을 수동으로 실행할 수 있습니다. REST API를 사용하여 SnapCenter 서버 또는 SnapCenter vSphere 호스트를 관리할 수 있습니다.</block>
   <block id="c8e5654e4bfafe9239ad785c178eec35" category="doc">REST API를 사용하여 SnapCenter 자동화</block>
   <block id="4da05a98f7d43c6ecf97005050dd8b4c" category="cell">나머지 API는...</block>
@@ -4645,7 +4560,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="9e5309714d9094e413324e0abf1a2c00" category="paragraph">SnapCenter 서버 및 해당 플러그인을 설치한 후 CA 인증서를 배포해야 합니다.
 자세한 내용은 을 참조하십시오 <block ref="e785a19e47d7a7e00436d504e46ce80e" category="inline-link-macro-rx"></block>.</block>
   <block id="8fbcd736aac5b9c6baba8f4db349f50e" category="inline-link">인증서를 만들고 가져옵니다</block>
-  <block id="c0ddbdc2a9782e98d40c313e95e09705" category="paragraph">VMware vSphere용 SnapCenter 플러그인용 CA 인증서를 구축할 수도 있습니다. 자세한 내용은 을 참조하십시오<block ref="f5f72b20763af718f23ba7b5cc6b11fa" category="inline-link-rx"></block>.</block>
   <block id="2519e52723b63d73b91fe9567002e2ad" category="section-title">멀티팩터 인증(MFA)</block>
   <block id="3b657229f02ff903eb873f61703af749" category="paragraph">MFA는 SAML(Security Assertion Markup Language)을 통해 타사 ID 공급자(IDP)를 사용하여 사용자 세션을 관리합니다. 이 기능은 TOTP, 생체 인식, 푸시 알림 등과 같은 여러 요소를 기존 사용자 이름 및 암호와 함께 사용할 수 있는 옵션을 제공하므로 인증 보안이 향상됩니다. 또한 고객은 자신의 사용자 ID 공급자를 사용하여 포트폴리오 전체에서 통합 사용자 로그인(SSO)을 얻을 수 있습니다.</block>
   <block id="3d687b72d27aa3959c593b27cbc44d4c" category="paragraph">MFA는 SnapCenter 서버 UI 로그인에만 적용됩니다.  로그인은 IDP AD FS(Active Directory Federation Services)를 통해 인증됩니다.  AD FS에서 다양한 인증 요소를 구성할 수 있습니다. SnapCenter는 서비스 공급자이며 AD FS에서 SnapCenter를 기반 공급업체로 구성해야 합니다. SnapCenter에서 MFA를 사용하려면 AD FS 메타데이터가 필요합니다.</block>
@@ -4725,8 +4639,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="1b195709096f08d5640d18382cb88214" category="paragraph">SnapCenter에는 다음과 같은 주요 기능이 포함되어 있습니다.</block>
   <block id="0d5a14c7c275ceabc6219ec9ab60645f" category="list-text">애플리케이션 정합성이 보장되는 중앙 집중식 데이터 보호</block>
   <block id="614d75d82c03a359210029561e76c31c" category="paragraph">ONTAP 시스템에서 실행되는 Microsoft Exchange Server, Microsoft SQL Server, Linux 또는 AIX 기반 Oracle 데이터베이스, SAP HANA 데이터베이스 및 Windows 호스트 파일 시스템에 대해 데이터 보호가 지원됩니다.</block>
-  <block id="91fc009ef552fe282ad4103bc4542688" category="paragraph">사용자 정의 SnapCenter 플러그인을 만들 수 있는 프레임워크를 제공하여 다른 표준 또는 사용자 지정 애플리케이션 및 데이터베이스에서도 데이터 보호가 지원됩니다. 따라서 동일한 단일 창에서 다른 애플리케이션과 데이터베이스의 데이터를 보호할 수 있습니다. NetApp은 이 프레임워크를 활용하여 NetApp 자동화 스토어에서 IBM DB2, MongoDB, MySQL용 SnapCenter 맞춤형 플러그인을 출시했습니다.</block>
-  <block id="824fb725cd78913cf73d5b8ff0ebe97c" category="paragraph"><block ref="824fb725cd78913cf73d5b8ff0ebe97c" category="inline-link-rx"></block></block>
   <block id="1e06a8cc16bd3bc423f81e8ff56e4fc0" category="list-text">정책 기반 백업</block>
   <block id="5120c9ef4a7041813fe0f5dd0dceb9e7" category="paragraph">정책 기반 백업은 NetApp Snapshot 복사본 기술을 활용하여 빠르고 공간 효율적이며 애플리케이션 정합성을 보장하는 디스크 기반 백업을 생성합니다. 필요에 따라 기존 보호 관계를 업데이트하여 보조 스토리지에 대한 이러한 백업을 자동으로 보호할 수 있습니다.</block>
   <block id="c6f23063f5e9e828f1d4a0d52255f07c" category="list-text">여러 리소스를 백업합니다</block>
@@ -4741,7 +4653,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="7ef2193aefa38af010eb09987c5e35ec" category="paragraph">SnapCenter에는 모든 오케스트레이션 소프트웨어와 통합할 수 있는 대부분의 기능, Windows PowerShell cmdlet 및 명령줄 인터페이스 사용을 위한 REST API가 포함되어 있습니다.</block>
   <block id="66ee30700091538587a27acf4ecad692" category="inline-link">REST API 개요</block>
   <block id="9a9a51f1993f5461829d8466a8fb013e" category="paragraph">REST API에 대한 자세한 내용은 를 참조하십시오<block ref="ea5c19f623f4ce0e4a3a37a512890f94" category="inline-link-rx"></block>.</block>
-  <block id="bb9b211047ca9fd3aa94d088f95891ee" category="paragraph">Windows cmdlet에 대한 자세한 내용은 을 참조하십시오<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="491d379e6629985a2ada1aa1be5dbaff" category="paragraph">UNIX 명령에 대한 자세한 내용은 을 참조하십시오<block ref="868bc9c3fbc71eae2d899862af6d942e" category="inline-link-rx"></block>.</block>
   <block id="44764ea524336d8792197315c021bc65" category="list-text">중앙 집중식 데이터 보호 대시보드 및 보고</block>
   <block id="36fbf00d5877eca259aff6ad5fc25b19" category="list-text">보안 및 위임을 위한 역할 기반 액세스 제어(RBAC).</block>
@@ -4771,7 +4682,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="41055e583e58ee1a92771580cdfe9b3f" category="list-text">AIX용 SnapCenter 플러그인 패키지, 다음 플러그인 포함:</block>
   <block id="f131ab7559cf49d32373fdff9b7cbaaa" category="admonition">UNIX용 SnapCenter 플러그인은 독립 실행형 플러그인이 아니며 독립적으로 설치할 수 없습니다. 이 플러그인은 Oracle 데이터베이스용 SnapCenter 플러그인을 설치하면 자동으로 설치됩니다.</block>
   <block id="ad41f7a9e85843a998743e132424a395" category="list-text">SnapCenter 맞춤형 플러그인</block>
-  <block id="c41cef29e8776e4670cacce5775ec017" category="paragraph">사용자 지정 플러그인은 커뮤니티에서 지원되며 에서 다운로드할 수 있습니다<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="4bfa416280fc4f5037348c904859e18f" category="paragraph">SnapCenter Plug-in for VMware vSphere(이전의 NetApp Data Broker)는 가상화된 데이터베이스 및 파일 시스템에서 SnapCenter 데이터 보호 작업을 지원하는 독립 실행형 가상 어플라이언스입니다.</block>
   <block id="2aa0571a478e7d0fecaba7f94c88bf25" category="section-title">SnapCenter 서버</block>
   <block id="e4b70dc0a2377b7bbef832a55b2d603c" category="paragraph">SnapCenter 서버에는 웹 서버, 중앙 집중식 HTML5 기반 사용자 인터페이스, PowerShell cmdlet, REST API 및 SnapCenter 저장소가 포함됩니다.</block>
@@ -4838,7 +4748,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="7362a758a4c65bbbb4dc5e948b5a5896" category="list-text">사용자 지정 플러그인을 지원하여 다른 SnapCenter 플러그인에서 지원하지 않는 애플리케이션 또는 데이터베이스를 관리할 수 있습니다. SnapCenter 설치의 일부로 사용자 지정 플러그인이 제공되지 않습니다.</block>
   <block id="7f8b22ee024d485fad8d1c95beda80f7" category="list-text">다른 볼륨에 백업 세트의 미러 복제본을 생성하고 D2D 백업 복제를 수행할 수 있습니다.</block>
   <block id="0bdb27719827039d79994d2a17575b2e" category="list-text">Windows 환경과 Linux 환경을 모두 지원합니다. Windows 환경에서 사용자 지정 플러그인을 통한 사용자 지정 애플리케이션은 필요에 따라 Microsoft Windows용 SnapCenter 플러그인을 사용하여 파일 시스템의 일관된 백업을 수행할 수 있습니다.</block>
-  <block id="bef4d00fa5327b323d516fbe5c1bce99" category="paragraph">SnapCenter 소프트웨어용 MySQL, DB2 및 MongoDB 맞춤형 플러그인 샘플은 에서 다운로드할 수 있습니다<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="dbe26f725743679de01e440c2e7697ad" category="admonition">MySQL, DB2 및 MongoDB 맞춤형 플러그인은 NetApp 커뮤니티를 통해서만 지원됩니다.</block>
   <block id="a84dab656bf020b14be7a5c3596b4288" category="paragraph">NetApp은 맞춤형 플러그인을 생성 및 사용할 수 있는 기능을 지원하지만 생성하는 맞춤형 플러그인은 NetApp에서 지원하지 않습니다.</block>
   <block id="0403e11795fb79ba2a2b089e5837948f" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="5d3441c720944f2bfbf67dc2b7c68bf1" category="inline-link-macro-rx"></block></block>
@@ -4904,7 +4813,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="413d9db5e9371c72c8a46ca2aa854b0b" category="paragraph">리소스 그룹을 생성하고 정책을 연결할 때 매일 전체 백업을 수행하고 로그 백업을 매시간 수행하는 다른 일정을 수행하도록 리소스 그룹을 구성할 수 있습니다.</block>
   <block id="ac79b4abc4dc6d0e9ec4abc5ca6b78a2" category="image-alt">데이터 세트 및 정책 다이어그램</block>
   <block id="a2736a5a798a9322639036f21c70d1d1" category="paragraph">다음 그림에서는 Windows 파일 시스템에 대한 리소스, 리소스 그룹 및 정책 간의 관계를 보여 줍니다.</block>
-  <block id="6d6b02d244f9cf99608b318dd4f2cda4" category="image-alt">WFS에 대한 리소스 및 정책입니다</block>
   <block id="5926d8282fd08537dd7e7090709f2b1a" category="summary">명령줄 인터페이스를 사용하여 Linux용 SnapCenter 플러그인 패키지 또는 AIX용 SnapCenter 플러그인 패키지를 제거할 수 있습니다.</block>
   <block id="b67e16350266a218b700f80817e7dec0" category="doc">CLI를 사용하여 Linux 또는 AIX용 플러그인 패키지를 제거합니다</block>
   <block id="c557793771176243e85dc7597d5a2f77" category="list-text">예약된 작업을 삭제했는지 확인합니다</block>
@@ -4916,7 +4824,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="c1fb7c552ac7beaf17dc346fda22eff6" category="list-text">리소스 그룹을 제거하면 연결된 모든 스케줄도 제거됩니다.</block>
   <block id="622c9e28dad13fa5c04d47d33d343831" category="list-text">호스트에 다른 호스트와 공유되는 리소스 그룹이 있고 호스트를 삭제하는 경우 리소스 그룹도 삭제됩니다.</block>
   <block id="759ef57c3be2a273728558ce141e699a" category="list-text">사용 중단되거나 연결할 수 없는 플러그인 호스트를 제거하려면 _Remove-SmHost_cmdlet을 사용해야 합니다.</block>
-  <block id="7d5e98342223338218f7d96b6f09048c" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block></block>
   <block id="40b2be8df06289f2b15c3ba4ee7adb9d" category="list-text">호스트를 제거하는 데 필요한 시간은 백업 수와 보존 설정에 따라 달라집니다. 이는 각 컨트롤러에서 스냅샷 복사본이 삭제되고 메타데이터가 정리되기 때문입니다.</block>
   <block id="5d892beace7b1624b071044ece982dcc" category="list-text">제거할 호스트를 선택한 다음 * 제거 * 를 클릭합니다.</block>
   <block id="19355742858cf70570e1a01c80a490ab" category="list-text">Oracle RAC 클러스터의 경우 클러스터의 모든 호스트에서 SnapCenter 소프트웨어를 제거하려면 * 클러스터의 모든 호스트 포함 * 을 선택합니다.</block>
@@ -4937,7 +4844,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="fca66b9c4df401b3975637ceacad7ed3" category="paragraph">플러그인을 제거할 각 호스트에 대한 로컬 관리자 권한이 있는 도메인 사용자로 SnapCenter에 로그인해야 합니다.</block>
   <block id="8804fc7cd8650f0fe7f3181b69a373af" category="list-text">SnapCenter 서버 호스트에서:_Open-SMConnection-SMSbaseUrl \https://SNAPCENTER_SERVER_NAME/DOMAIN_NAME_ 명령을 입력한 다음 자격 증명을 입력합니다.</block>
   <block id="0262b115df575f2dc8bf11b8e4a86e10" category="list-text">_Uninstall-SmHostPackage_cmdlet 및 필수 매개 변수를 사용하여 Windows 플러그인을 제거합니다.</block>
-  <block id="e125da4cc0e5138fb35b5f0e2a1ba201" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="e0898373b2f666f171a7f4036db43bea" category="summary">SnapCenter를 사용하여 데이터 보호 작업을 더 이상 관리하지 않으려는 경우 호스트를 제거할 수 있습니다. 예를 들어, 보호해야 할 데이터가 더 이상 없으면 호스트를 제거할 수 있습니다. SnapCenter 서버에서 호스트를 제거하기 전에 필수 작업을 수행해야 합니다.</block>
   <block id="0b9b2afb477e54bc6c5d26158d80077a" category="doc">호스트 제거를 위한 사전 요구 사항</block>
   <block id="f3442009cf8c0e228473ba15a66ac563" category="paragraph">SnapCenter GUI를 사용하여 호스트를 제거하고 개별 플러그인 또는 플러그인 패키지를 제거할 수 있습니다. 또한 SnapCenter 서버 호스트의 CLI(명령줄 인터페이스)를 사용하거나 Windows*에서 로컬로 프로그램 제거* 옵션을 사용하여 원격 호스트에서 개별 플러그인 또는 플러그인 패키지를 제거할 수 있습니다.</block>
@@ -4960,7 +4866,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="06b047d338ab216568f24797a92a475a" category="list-text">RBAC 사용자를 RBAC 역할에 할당해야 합니다.</block>
   <block id="4fcc15e06159b8ced3ec8f0100fa1a04" category="list-text">RBAC 사용자를 호스트, Microsoft SQL Server용 SnapCenter 플러그인, 자격 증명, 클론 라이프사이클 리소스 그룹 및 스토리지 시스템에 할당해야 합니다.</block>
   <block id="92d37724657724129ae0451584c728aa" category="inline-link">VMware vSphere용 SnapCenter 플러그인을 제거합니다</block>
-  <block id="00b3864f3eb01692ecdfe4f18c19971c" category="paragraph">VMware vSphere용 SnapCenter 플러그인 제거에 대한 자세한 내용은 을 참조하십시오<block ref="17b687e0a579b9f5223d3c7119027217" category="inline-link-rx"></block>.</block>
   <block id="1f3416d24aa4604f3bf013f7b5ba6d0f" category="summary">개별 플러그인 또는 플러그인 패키지가 더 이상 필요하지 않다고 결정한 경우 SnapCenter 인터페이스를 사용하여 제거할 수 있습니다.</block>
   <block id="76af7718f89458bae85fc299897539a1" category="doc">SnapCenter GUI를 사용하여 플러그인을 제거합니다</block>
   <block id="59c6427d777966a59438a00364121a39" category="list-text">제거할 플러그인 패키지의 리소스 그룹을 제거해야 합니다.</block>
@@ -4970,7 +4875,6 @@ Windows 호스트 또는 다른 Windows 호스트는 지원되지 않습니다.<
   <block id="fee0bec9fecb6576229640dcf9eec620" category="paragraph">SnapCenter에서 호스트를 제거하면 SnapCenter는 호스트를 제거하기 전에 호스트에 있는 모든 플러그인 패키지를 제거합니다.</block>
   <block id="cd9cae3233179ab0aa5b93a449869d50" category="list-text">SnapCenter GUI는 한 번에 하나의 호스트에서 플러그인을 제거합니다.</block>
   <block id="e4b51b04ea7a4e9b027ffb18024a9938" category="paragraph">SnapCenter GUI를 사용하는 경우 한 번에 하나의 호스트에서만 플러그인을 제거할 수 있습니다. 그러나 여러 제거 작업을 동시에 실행할 수 있습니다.</block>
-  <block id="517b39b6edfcd923dff2604ce021f723" category="paragraph">또한 _Uninstall-SmHostPackage_cmdlet 및 필수 매개 변수를 사용하여 여러 호스트에서 플러그인을 제거할 수도 있습니다. cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="a4ad00e40c8d026de37f699c1cdc43f2" category="admonition">SnapCenter 서버가 설치된 호스트에서 Windows용 SnapCenter 플러그인 패키지를 제거하면 SnapCenter 서버 설치가 손상됩니다. SnapCenter 서버가 더 이상 필요하지 않은 경우가 아니면 Windows용 SnapCenter 플러그인 패키지를 제거하지 마십시오.</block>
   <block id="b431698bc085bcde968e1e3d9582578a" category="list-text">관리 호스트 페이지에서 플러그인 또는 플러그인 패키지를 제거할 호스트를 선택합니다.</block>
   <block id="9e8fa339338bb378f91b2bc7b281c6c6" category="list-text">제거하려는 플러그인 옆에 있는 * 제거 * &gt; * 제출 * 을 클릭합니다.</block>
@@ -5512,7 +5416,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="5b416e1633d16aad217a2e0fc2d097f8" category="doc">워크플로우 업그레이드</block>
   <block id="994e8a3ae2b587ba4467292fb5e6ba75" category="paragraph">SnapCenter의 각 릴리즈에는 업데이트된 SnapCenter 서버 및 플러그인 패키지가 포함되어 있습니다. 플러그인 패키지 업데이트는 SnapCenter 설치 프로그램과 함께 배포됩니다. SnapCenter에서 사용 가능한 업데이트를 확인하도록 구성할 수 있습니다.</block>
   <block id="1942fea7712357c67be30cfd20652b93" category="paragraph">워크플로우는 SnapCenter 서버 및 플러그인 패키지를 업그레이드하는 데 필요한 여러 작업을 보여 줍니다.</block>
-  <block id="f640c846348fd61e77b392f8bb721f0c" category="image-alt">워크플로우 업그레이드</block>
   <block id="eccc8325175b53fdef9a1846222d4161" category="section-title">지원되는 업그레이드 경로</block>
   <block id="521d29d37f5561d4922ece42dc92cb07" category="cell">SnapCenter 서버 버전을 사용 중인 경우...</block>
   <block id="7676f59833cee6720de923cfeef21ede" category="cell">SnapCenter 서버를 다음으로 직접 업그레이드할 수 있습니다.</block>
@@ -5536,7 +5439,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="313500fb86a172e846d699cb256626d3" category="list-text">다음 작업 중 하나를 수행하여 호스트를 업그레이드합니다.</block>
   <block id="0e823ac83a0e5e8cc905d2eed889ff3f" category="list-text">호스트 중 하나에 대해 전체 상태 열에 ""업그레이드 가능""이 표시되면 호스트 이름을 클릭하고 다음을 수행합니다.</block>
   <block id="2445a40c60df055e6c04f244fdab70dd" category="list-text">호스트가 플러그인을 업그레이드하는 데 필요한 요구사항을 충족하는지 확인하지 않으려면 * 사전 검사 건너뛰기 * 를 선택합니다.</block>
-  <block id="f0591735df8248e1a4f758a0a4d6508f" category="list-text">여러 호스트를 업그레이드하려면 모든 호스트를 선택하고 을 클릭합니다 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block>를 클릭한 다음 * 업그레이드 * &gt; * 확인 * 을 클릭합니다.</block>
   <block id="8ab368eff7e361869ef717b446f7ec1b" category="paragraph">플러그인 업그레이드 중에 모든 관련 서비스가 다시 시작됩니다.</block>
   <block id="cb2e95d4ff0d177df515e750d19325ff" category="admonition">패키지의 모든 플러그인이 선택되지만 이전 버전의 SnapCenter와 함께 설치된 플러그인만 업그레이드되고 나머지 플러그인은 설치되지 않습니다. 새 플러그인을 설치하려면 * 플러그인 추가 * 옵션을 사용해야 합니다.</block>
   <block id="54b984a4288fefb2ababe762c45c4850" category="paragraph">사전 검사 건너뛰기 * 확인란을 선택하지 않은 경우 호스트가 플러그인을 설치하는 데 필요한 요구 사항을 충족하는지 여부를 확인합니다. 최소 요구 사항이 충족되지 않으면 적절한 오류 또는 경고 메시지가 표시됩니다. 문제를 해결한 후 * 업그레이드 * 를 클릭합니다.</block>
@@ -5617,7 +5519,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="4265601c87361a7cd62256734c1f899a" category="paragraph">동일한 스토리지 볼륨에서 모든 리소스 자동 선택 * 옵션을 선택하면 동일한 볼륨에 있는 모든 리소스가 선택됩니다. 추가된 섹션으로 이동하면 해당 볼륨의 모든 리소스가 함께 이동합니다.</block>
   <block id="d0bb923d5452aed249e5dd3106e8b581" category="paragraph">단일 파일 시스템을 추가하려면 * 동일한 스토리지 볼륨에서 모든 리소스 자동 선택 * 옵션을 선택 취소한 다음, 추가된 섹션으로 이동할 파일 시스템을 선택합니다.</block>
   <block id="06b7a35647423a613441508027476181" category="paragraph">기존 정책을 선택하고 * 세부 정보 * 를 클릭하여 해당 정책을 사용할 수 있는지 여부를 확인할 수 있습니다.</block>
-  <block id="cca9f37b92847fd5d373bfe5fd03eb96" category="paragraph">기존 정책이 요구 사항을 충족하지 않는 경우 * 를 클릭하여 새 정책을 생성할 수 있습니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>를 눌러 정책 마법사를 시작합니다.</block>
   <block id="ab549fb31447afed81e3fd9e890b0394" category="paragraph">선택한 정책이 선택한 정책에 대한 스케줄 구성 섹션의 정책 열에 나열됩니다.</block>
   <block id="35d29b40e80e1e7a9a337b582db6df91" category="list-text">정책이 여러 일정 유형(빈도)과 연결된 경우 구성할 빈도를 선택합니다.</block>
   <block id="e44e5d659314ff509ecc4d0c16427d88" category="list-text">policy_policy_name_schedules 추가 대화 상자에서 시작 날짜, 만료 날짜 및 빈도를 지정하여 스케줄을 구성한 다음 * 마침 * 을 클릭합니다.</block>
@@ -5716,8 +5617,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="b9eabe260cd8a0a2c241b35d09dfb062" category="paragraph">를 사용할 수 있습니다<block ref="340b7328d82897326900685536aac803" prefix=" " category="inline-code"></block> 옵션을 선택할 수 있습니다. 플러그인을 수동으로 설치했고 호스트가 플러그인을 설치하는 데 필요한 요구 사항을 충족하는지 확인하지 않으려는 경우</block>
   <block id="bf9022cd459d82bda5c1defee5acb8ac" category="summary">사용자 환경에 Microsoft Windows용 SnapCenter 플러그인을 설치하면 SnapCenter를 사용하여 Windows 파일 시스템을 백업할 수 있습니다. 단일 파일 시스템 또는 여러 파일 시스템이 포함된 리소스 그룹을 백업할 수 있습니다. 필요에 따라 또는 정의된 보호 일정에 따라 백업할 수 있습니다.</block>
   <block id="6213c4aa6c3d759b708f391038b515e2" category="paragraph">여러 서버에서 동시에 실행되도록 여러 백업을 예약할 수 있습니다. 동일한 리소스에서 백업 및 복원 작업을 동시에 수행할 수 없습니다.</block>
-  <block id="0d267aa6a5980521c50d3bb9b62d9419" category="image-alt">SCE 백업 워크플로우</block>
-  <block id="7ed3417ce7f529178e5bb25b31b39fc6" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. SnapCenter cmdlet 도움말 또는 을 참조하십시오<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block> PowerShell cmdlet에 대한 자세한 내용은 에 나와 있습니다.</block>
   <block id="07117ad816bc94530a93fd42336f2f79" category="summary">Windows용 플러그인은 스토리지 시스템의 NetApp Snapshot 복사본 기술과 통합됩니다. Windows용 플러그인으로 작업하려면 SnapCenter 인터페이스를 사용합니다.</block>
   <block id="6c2908e5cc43162ef9ecea994b17389d" category="doc">Windows용 SnapCenter 플러그인 기능</block>
   <block id="5152783556f9f44813fcbba2514ba270" category="paragraph">Windows용 플러그인에는 다음과 같은 주요 기능이 포함되어 있습니다.</block>
@@ -5786,7 +5685,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="f0eee44a5ea73e8e986af8ed4ae99c75" category="doc">복원 작업을 취소합니다</block>
   <block id="d15d437af5bf71693f503d9b740db0b6" category="summary">데이터베이스 파일이 아닌 Windows 파일을 보호하려면 Microsoft Windows용 SnapCenter 플러그인을 설치하고 설정해야 합니다.</block>
   <block id="15e336a500bbc8b78c88e27a721b8803" category="doc">Microsoft Windows용 SnapCenter 플러그인 설치 워크플로</block>
-  <block id="f49c84e0b5156da6ebd210ed36305e85" category="image-alt">설치를 위한 SCW 워크플로</block>
   <block id="e30725bfa240d5ea8772d145f781e859" category="summary">자원이 자원 그룹에 없으면 자원 페이지에서 필요에 따라 자원을 백업할 수 있습니다.</block>
   <block id="61be258ec26cd6598544b7c05bf8b36a" category="doc">필요 시 Windows 파일 시스템에 대한 단일 리소스를 백업합니다</block>
   <block id="866879cbf88bb77398ac3c336063ceea" category="paragraph">2차 스토리지와 SnapMirror 관계가 있는 리소스를 백업하려면 스토리지 사용자에게 할당된 역할에 "'스냅샷 전체' 권한이 있어야 합니다. 그러나 "vsadmin" 역할을 사용하는 경우에는 "napmirror all" 권한이 필요하지 않습니다.</block>
@@ -5795,8 +5693,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="c62706269a2329ff51bf94ff5010638a" category="paragraph">리소스 그룹 생성 작업에 설명된 대로 보호 설정을 지정합니다.</block>
   <block id="da4b05983b1e6447f9b34c3d68c1e1e9" category="list-text">선택 사항: 마법사의 리소스 페이지에서 스냅샷 복사본에 대한 사용자 지정 이름 형식을 입력합니다.</block>
   <block id="1957e5ad25b71af9fcaddadddc14180d" category="paragraph">기존 정책을 선택한 다음 * 세부 정보 * 를 클릭하여 해당 정책을 사용할 수 있는지 여부를 확인할 수 있습니다.</block>
-  <block id="72505ce1779969b10a827b76ce40ee9f" category="paragraph">기존 정책이 요구 사항을 충족하지 않는 경우 기존 정책을 복사하여 수정하거나 를 클릭하여 새 정책을 생성할 수 있습니다 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> 를 클릭하여 정책 마법사를 시작합니다.</block>
-  <block id="664f868df734376691b6f2603ef04ff9" category="list-text">선택한 정책에 대한 스케줄 구성 섹션에서 을 클릭합니다 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> 스케줄을 구성할 정책에 대한 Configure Schedules 열에서</block>
   <block id="bc22332d0120f08504019205b36354ac" category="inline-link">예약된 작업이 실패할 수 있습니다</block>
   <block id="bddd7b60b51755712256b3b46ef0c101" category="paragraph"><block ref="bddd7b60b51755712256b3b46ef0c101" category="inline-link-rx"></block></block>
   <block id="6dbe642189d028e1d830c44817108644" category="list-text">알림 페이지에서 다음 작업을 수행합니다.</block>
@@ -6145,7 +6041,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="33e064f29b9e817a8e3b29ebdbe9e58d" category="list-text">연결된 자산(호스트, 사용자 및 그룹)이 있는 경우 도메인 등록을 취소하면 자산이 작동하지 않습니다.</block>
   <block id="882dc26e2380d66f18dab972132841dc" category="list-text">신뢰할 수 없는 도메인의 등록을 취소하려면 SnapCenter 사용자 인터페이스 또는 PowerShell cmdlet을 사용합니다.</block>
   <block id="120ccafdaf964af639f60c4ed26eaafb" category="list-text">도메인 목록에서 등록을 취소할 도메인을 선택합니다.</block>
-  <block id="cde4c5c90d02e08fbdbc0d8eed8ec493" category="list-text">을 클릭합니다 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>를 클릭한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="ab9f184317ad9227ffcca6da7d07d1c2" category="summary">대시보드를 사용하여 특정 플러그인에서 관리하는 리소스에 대한 보호 세부 정보를 요청할 수 있습니다.</block>
   <block id="ca8d4718959530d7081a06567ef1affb" category="doc">대시보드에서 보호 상태에 대한 보고서를 요청합니다</block>
   <block id="c26cacb3ec2bfdd0d5608f4ffb737446" category="paragraph">대시보드를 사용하여 특정 플러그인에서 관리하는 리소스에 대한 보호 세부 정보를 요청할 수 있습니다. 데이터 백업은 데이터 보호 요약으로 간주됩니다.</block>
@@ -6260,7 +6155,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="c4460b4ba682894b3659eac23da5982c" category="paragraph">백업을 삭제하기 전에 연결된 클론을 삭제해야 합니다.</block>
   <block id="95963f8927c154efb88b58300907395e" category="admonition">백업이 클론 생성된 리소스와 연결된 경우 백업을 삭제할 수 없습니다.</block>
   <block id="f5284898efb9a6c5033f0a9dc818cb37" category="paragraph">보조 스토리지 시스템에 있는 백업은 삭제할 수 없습니다.</block>
-  <block id="107b0b3efdd6bdd1080f8bfc26e2dc6f" category="list-text">백업을 선택한 다음 을 클릭합니다 <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="cb3436fef348c07ba3d9f412be444f39" category="paragraph">SAP HANA 데이터베이스 백업을 삭제하는 경우 관련된 백업 SAP HANA 카탈로그도 함께 삭제됩니다.</block>
   <block id="b61d80f092eb0e582c00ae1b6238b80a" category="admonition">마지막 남은 백업을 삭제하면 관련 HANA 카탈로그 항목을 삭제할 수 없습니다.</block>
   <block id="fef20dbfed3ff50c55f0d523a35f981e" category="admonition">SnapCenter에 스토리지 시스템에 해당하는 백업이 없는 오래된 데이터베이스 백업이 있는 경우 remove-smbackup 명령을 사용하여 이러한 오래된 백업 항목을 정리해야 합니다. 오래된 백업이 카탈로그로 작성된 경우 복구 카탈로그 데이터베이스에서 카탈로그가 해제됩니다.</block>
@@ -6330,13 +6224,11 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="be1718168e430492046fac5f16367037" category="paragraph">SnapCenter 플러그인 서비스를 시작하면 서비스가 실행되고 있지 않은 경우 서비스를 시작하거나 실행 중인 경우 서비스를 다시 시작할 수 있습니다. 유지 관리를 수행한 후 서비스를 다시 시작할 수 있습니다.</block>
   <block id="58bcd22b31297b36a676def5347fa3b2" category="paragraph">서비스를 다시 시작할 때 실행 중인 작업이 없는지 확인해야 합니다.</block>
   <block id="16acc7d09da8e8ea142faad2c2e99c21" category="list-text">Managed Hosts 페이지에서 시작할 호스트를 선택합니다.</block>
-  <block id="83bc877d35e349591e52d67695f4ebd5" category="list-text">을 클릭합니다 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하고 * 서비스 시작 * 또는 * 서비스 다시 시작 * 을 클릭합니다.</block>
   <block id="95cc3c73149a2a9e8f7514403fe4a484" category="paragraph">여러 호스트의 서비스를 동시에 시작하거나 다시 시작할 수 있습니다.</block>
   <block id="a8eaf50ff5c7c20f8a8e1e520b6616ca" category="section-title">호스트 유지 관리를 위한 스케줄을 일시 중지합니다</block>
   <block id="de638f093760483ad5af8153859bb6a4" category="paragraph">호스트가 SnapCenter 예약 작업을 실행하지 못하도록 하려면 호스트를 유지 관리 모드로 전환할 수 있습니다. 플러그인을 업그레이드하거나 호스트에 대한 유지보수 작업을 수행하기 전에 이 작업을 수행해야 합니다.</block>
   <block id="7bd1b35c46c91d6c4f9e4e4e0987180e" category="admonition">SnapCenter가 해당 호스트와 통신할 수 없기 때문에 중단된 호스트의 스케줄을 일시 중지할 수 없습니다.</block>
   <block id="bc62bc8ccd9bb9743e619c4fbc62a44f" category="list-text">Managed Hosts 페이지에서 일시 중지할 호스트를 선택합니다.</block>
-  <block id="bfc75ad123f974ba0d75554566ed3fc4" category="list-text">를 클릭합니다 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭한 다음 * Suspend Schedule * 을 클릭하여 이 플러그인의 호스트를 유지 관리 모드로 설정합니다.</block>
   <block id="4e6ab1d1707049b8300c146abc72aade" category="paragraph">여러 호스트의 스케줄을 동시에 일시 중지할 수 있습니다.</block>
   <block id="a68a8f505f60c90cfd9806fe0303a226" category="admonition">먼저 플러그인 서비스를 중지할 필요가 없습니다. 플러그인 서비스는 실행 중 또는 중지됨 상태일 수 있습니다.</block>
   <block id="72e07b749365fd8d8b234a68677498d1" category="paragraph">호스트에서 스케줄을 일시 중지한 후 호스트의 전체 상태 필드에 관리 호스트 페이지에 * 일시 중단됨 * 이 표시됩니다.</block>
@@ -6394,7 +6286,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="ba2f4fc969f990edea2a0f9e7c17885f" category="admonition">평가판 라이센스(일련 번호가 50으로 끝나는 번호)는 SnapCenter GUI를 사용하여 삭제할 수 없습니다. 조달된 SnapCenter 표준 용량 기반 라이센스를 추가하면 평가판 라이센스가 자동으로 덮어쓰여집니다.</block>
   <block id="a79d31012252514c1817004ac27f6c78" category="list-text">왼쪽 탐색 창에서 * 설정 * 을 선택합니다.</block>
   <block id="a646fca044aab578f560ca4fc105e766" category="list-text">설정 페이지에서 * 소프트웨어 * 를 선택합니다.</block>
-  <block id="494d74fe2d3b6e8b71d672a1143d6aa0" category="list-text">소프트웨어 페이지의 라이센스 섹션에서 * 추가 * (<block ref="a55421dd685609006a21f2507444357f" category="inline-image-macro-rx" type="image"></block>)를 클릭합니다.</block>
   <block id="d72c1df6aa761e08a22ad7e68c16406d" category="list-text">SnapCenter 라이센스 추가 마법사에서 다음 방법 중 하나를 선택하여 추가할 라이센스를 가져옵니다.</block>
   <block id="a1d8662559bac2669232432df90e6db3" category="paragraph">NSS(NetApp Support Site) 로그인 자격 증명을 입력하여 라이센스를 가져옵니다</block>
   <block id="a426e2b1ae7b2ed68b622079636cb9f8" category="list-text">NSS 사용자 이름을 입력합니다.</block>
@@ -6564,7 +6455,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="2789cdc77c14e8b5a14e86f2057a7d4f" category="list-text">SnapCenter 서버에서 도메인 컨트롤러 호스트 이름(DCHostName)에 연결할 수 있어야 합니다.</block>
   <block id="88f43ff19ffe5badc539c95171485d40" category="list-text">SnapCenter 사용자 인터페이스, PowerShell cmdlet 또는 REST API를 사용하여 신뢰할 수 없는 도메인을 등록할 수 있습니다.</block>
   <block id="55914843f9768acffcc6d6ee07b8942f" category="list-text">설정 페이지에서 * 글로벌 설정 * 을 클릭합니다.</block>
-  <block id="6367d0504b967e287008a2edf347cff7" category="list-text">을 클릭합니다 <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> 새 도메인을 등록합니다.</block>
   <block id="300306e9217bd45a67a1d98a4048e8f6" category="list-text">새 도메인 등록 페이지에서 * LDAP * 또는 * LDAPS * 를 선택합니다.</block>
   <block id="d13bc78a8fd8227474b625ef1688e14b" category="list-text">LDAP * 를 선택한 경우 LDAP에 대해 신뢰할 수 없는 도메인을 등록하는 데 필요한 정보를 지정합니다.</block>
   <block id="57ea1a814b12bff97d06e62d6cb435ab" category="paragraph">도메인 이름</block>
@@ -6582,7 +6472,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="059fe1123e48629ed1d6514462f294b2" category="doc">SnapCenter에 대해 CA 인증서를 활성화합니다</block>
   <block id="07d333070d0435446600383ad0be9b41" category="list-text">Set-SmCertificateSettings cmdlet을 사용하여 CA 인증서를 활성화하거나 비활성화할 수 있습니다.</block>
   <block id="1962fbbcfa72e74639e8c071188af514" category="list-text">Get-SmCertificateSettings cmdlet을 사용하여 SnapCenter 서버의 인증서 상태를 표시할 수 있습니다.</block>
-  <block id="4e8d1223f4ffd73f23495af28c3c7669" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 를 참조할 수도 있습니다<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="1240073aadeb78a3e72b1cedfb5cec2f" category="list-text">설정 페이지에서 * 설정 * &gt; * 글로벌 설정 * &gt; * CA 인증서 설정 * 으로 이동합니다.</block>
   <block id="a6e94fec2cfcadd0e75ac025786feb7f" category="list-text">*<block ref="ce7f8fe6cf825357e942960470acb5bc" category="inline-image-macro-rx" type="image"></block>* 는 활성화된 CA 인증서가 없거나 플러그인 호스트에 할당되어 있지 않음을 나타냅니다.</block>
   <block id="4ce9ef971363d62abcf2c6d2b1234486" category="summary">SnapCenter 인증서를 내보냅니다.</block>
@@ -6810,12 +6699,10 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="bebee85eba69e0936be881fa2ca1f602" category="admonition">SnapCenter 4.2.x에서 업그레이드한 후 이전에 네트워크 로드 밸런싱(NLB)을 사용한 경우 해당 구성을 계속 사용하거나 F5 로 전환할 수 있습니다.</block>
   <block id="a8c10ef2d3909ca8c562175087de65ba" category="inline-link">F5 로드 밸런서를 사용하여 고가용성을 위해 SnapCenter 서버를 구성하는 방법</block>
   <block id="a37d7f9a842acb74f6d4d0ac3a929778" category="paragraph">워크플로 이미지에는 F5 로드 밸런서를 사용하여 고가용성을 위해 SnapCenter 서버를 구성하는 단계가 나와 있습니다. 자세한 지침은 을 참조하십시오<block ref="4d4c1b07c3f7cab3f346d17a2617da56" category="inline-link-rx"></block>.</block>
-  <block id="4c18603dba89b319f6382b3916e52cba" category="image-alt">SC F5 워크플로우 구성</block>
   <block id="2f3c3d1de69d09261803424d64636033" category="paragraph">다음 cmdlet을 사용하여 F5 클러스터를 추가 및 제거하려면 SnapCenter Server의 로컬 관리자 그룹 구성원이어야 합니다(스냅센터 관리자 역할에 할당되는 것 외에).</block>
   <block id="d9ea666bfbe8444fa88062f4874d0b22" category="list-text">Add-SmServerCluster를 선택합니다</block>
   <block id="b8313647a63a15fb0ab7d46b778ba618" category="list-text">Add-SmServer 를 클릭합니다</block>
   <block id="cd8ca61b82992f73c74f955bf0f47f20" category="list-text">제거 - SmServerCluster</block>
-  <block id="1e0e854d46f7fdae75748f42803b83f4" category="paragraph">자세한 내용은 을 참조하십시오<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="e79efa970901c1191fca1b278b2ff2d9" category="section-title">추가 F5 구성 정보</block>
   <block id="ed9ff4b1a617150f86eae1035449f732" category="list-text">고가용성을 위해 SnapCenter를 설치하고 구성한 후 F5 클러스터 IP를 가리키도록 SnapCenter 바탕 화면 바로 가기를 편집합니다.</block>
   <block id="d04228e20798411b28cae6cb653df92c" category="list-text">SnapCenter 서버 간에 페일오버가 발생하고 기존 SnapCenter 세션도 있는 경우 브라우저를 닫고 SnapCenter에 다시 로그온해야 합니다.</block>
@@ -6879,7 +6766,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="3cb37de766f2d582ab6d0abf6e63d382" category="list-text">명령은 ONTAP 기능입니다.</block>
   <block id="b49ce4d00d6ed57c9fbc9e20e08cee2c" category="admonition">각 권한에 대해 이 명령을 반복해야 합니다. 모든 액세스 명령은 읽기 전용 명령 앞에 나열되어야 합니다.</block>
   <block id="81fb23c0c8e735fb97f9f661b58902b8" category="inline-link-macro">역할을 생성하고 권한을 할당하는 ONTAP CLI 명령입니다</block>
-  <block id="f37634ec820656fbecf1b4e4a31565f9" category="paragraph">사용 권한 목록에 대한 자세한 내용은 을 참조하십시오 <block ref="6c1006d61f543513243fc1b3f8ac291c" category="inline-link-macro-rx"></block>.</block>
   <block id="10056fa29f5070106b5da7d2738acd2e" category="list-text">다음 명령을 입력하여 사용자 이름을 생성합니다.</block>
   <block id="1af6536f50b7c77854633155c6ae923a" category="paragraph"><block ref="496d78c32dd2b2752181d6346f8b0aeb" prefix="" category="inline-code"></block></block>
   <block id="a53046962f5d32ce0b5006e41f82fd45" category="list-text">user_name은 만들고 있는 사용자의 이름입니다.</block>
@@ -6952,7 +6838,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="68dae2573ac7874d6dd234af4fa4c752" category="list-text">SnapCenter 서버에서 PowerShell 창을 열어 MySQL 암호를 재설정합니다.</block>
   <block id="aa5c2438bb48bc6f9fc91294d9f5f2c1" category="list-text">Open-SmConnection cmdlet을 실행하여 SnapCenter 서버에서 SnapCenterAdmin 계정에 대한 연결 세션을 시작합니다.</block>
   <block id="677b5668995b5d565b03294fb7b16727" category="list-text">Set-SmRepositoryPassword를 실행하여 MySQL 암호를 재설정합니다.</block>
-  <block id="b1d0f68016df3655c241c0884e44b7fb" category="paragraph">cmdlet에 대한 자세한 내용은 을 참조하십시오<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="bdc5e2c886d9f1d7c2db87ea0140c771" category="list-text">명령 프롬프트를 열고 MySQL -u root -p 를 실행하여 MySQL에 로그인합니다.</block>
   <block id="4c6cef07724f31f81802bd1558b3066b" category="paragraph">MySQL에서 암호를 묻는 메시지를 표시합니다. 암호를 재설정하는 동안 제공한 자격 증명을 입력합니다.</block>
   <block id="730761cf69bd21652f5f5b9dc5170f63" category="list-text">데이터베이스에서 평가판 라이센스를 제거합니다.</block>
@@ -6975,7 +6860,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="e559ce2499d2c5cb24993b681f9f514b" category="inline-link">외부 네트워크에서 클러스터 IP 주소에 액세스할 수 없습니다</block>
   <block id="59985d4c0ad9df334fed4d44ff0991fa" category="paragraph">HA(고가용성) 구축을 위해서는 가상 클러스터 IP_\https://Virtual_Cluster_IP_or_FQDN:8146_.를 사용하여 SnapCenter에 액세스해야 합니다 Internet Explorer(IE)에서 _\https://Virtual_Cluster_IP_or_FQDN:8146_로 이동할 때 SnapCenter UI가 표시되지 않으면 각 플러그인 호스트의 IE에 가상 클러스터 IP 주소 또는 FQDN을 신뢰할 수 있는 사이트로 추가하거나 각 플러그인 호스트에서 IE 고급 보안을 해제해야 합니다.
 자세한 내용은 을 참조하십시오<block ref="f89494b555e2d92920e0ac70f10ea089" category="inline-link-rx"></block>.</block>
-  <block id="b2079ecc7149f6a09b8dd46c38e9fbe6" category="paragraph">SnapCenter GUI 사용 외에도 PowerShell cmdlet을 사용하여 스크립트를 생성하여 구성, 백업 및 복원 작업을 수행할 수 있습니다. 일부 cmdlet은 SnapCenter 릴리즈마다 변경될 수 있습니다. 를 클릭합니다<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block> 세부 정보가 있습니다.</block>
   <block id="d6b96565adbb70c53ae14b5070be8651" category="admonition">SnapCenter에 처음 로그인하는 경우 설치 프로세스 중에 제공한 자격 증명을 사용하여 로그인해야 합니다.</block>
   <block id="31a7d97d557b06d288bae46db80c8d67" category="list-text">로컬 호스트 데스크톱에 있는 바로 가기나 설치 마지막에 제공된 URL 또는 SnapCenter 관리자가 제공한 URL에서 SnapCenter를 실행합니다.</block>
   <block id="578cd680813c62df612b39c490acb2bc" category="list-text">사용자 자격 증명을 입력합니다.</block>
@@ -7652,7 +7536,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="3c15d7a6541e416f0d13373ee63fd0c0" category="paragraph">공유 또는 네트워크 마운트 드라이브는 지원되지 않습니다.</block>
   <block id="d90e9077285809de90243e91ed3a10bc" category="list-text">Syslog 서버 설정에서 UDP 프로토콜을 사용하는 경우 포트가 중단되었거나 사용할 수 없어 발생한 오류는 SnapCenter에서 오류 또는 경고로 캡처될 수 없습니다.</block>
   <block id="b398a3651d49f0eb14349eff9cfdec58" category="list-text">Set-SmAuditSettings 및 Get-SmAuditSettings 명령을 사용하여 감사 로그를 구성할 수 있습니다.</block>
-  <block id="28e97aa2b5ca929ab9bd2ef8535b4f26" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 Get-Help command_name을 실행하여 얻을 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="b081c433d361cfcb39c391b352a6f526" category="list-text">설정 * 페이지에서 * 설정 * &gt; * 글로벌 설정 * &gt; * 감사 로그 설정 * 으로 이동합니다.</block>
   <block id="f3645e45f905156003cb2bb7741a86f3" category="list-text">Audit log(감사 로그) 섹션에서 세부 정보를 입력합니다.</block>
   <block id="bc622cdadddc54b812b2df6bb7115372" category="list-text">감사 로그 디렉토리 * 및 * 감사 체크섬 로그 디렉토리 * 를 입력합니다</block>
@@ -7714,7 +7597,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="448b0d01720485ec0d184f399054ce73" category="list-text">정책은 백업 빈도, 복제 보존, 스크립트 및 데이터 보호 작업의 기타 특성을 지정합니다.</block>
   <block id="64cf55b1d943bb337c4bb23fe8c989a1" category="paragraph">자원 그룹을 만들 때 해당 그룹에 대해 하나 이상의 정책을 선택합니다. 단일 리소스에 대해 필요 시 백업을 수행할 때 하나 이상의 정책을 선택할 수도 있습니다.</block>
   <block id="c4b19e703264203b67174f98dbbef807" category="paragraph">보호하려는_대상_과 이를 보호할 시기를 요일과 시간으로 정의하는 자원 그룹을 생각해 보십시오. 정책을 정의하는 _ 방법 _ 을(를) 보호하려는 것으로 생각해 보십시오. 예를 들어, 호스트의 모든 데이터베이스를 백업하는 경우 호스트의 모든 데이터베이스를 포함하는 리소스 그룹을 생성할 수 있습니다. 그런 다음 리소스 그룹에 일별 정책과 시간별 정책이라는 두 가지 정책을 연결할 수 있습니다. 리소스 그룹을 생성하고 정책을 연결할 때 매일 전체 백업을 수행하고 로그 백업을 매시간 수행하는 다른 일정을 수행하도록 리소스 그룹을 구성할 수 있습니다. 다음 그림에서는 데이터베이스 리소스, 리소스 그룹 및 정책 간의 관계를 보여 줍니다.</block>
-  <block id="5ed949ae3a23443793622ef5e2bb8e86" category="image-alt">SCE 리소스 그룹 정책</block>
   <block id="9bcf17f4427582cfbb783f46971b1eb0" category="summary">백업 작업을 생성하기 전에 백업 전략을 정의하면 데이터베이스를 성공적으로 복원하는 데 필요한 백업이 있는지 확인하는 데 도움이 됩니다. 서비스 수준 계약(SLA), 복구 시간 목표(RTO) 및 복구 시점 목표\(RPO\)에 따라 백업 전략이 주로 결정됩니다.</block>
   <block id="7fc686e60d66e170f709548904c946f0" category="doc">Exchange Server 리소스에 대한 백업 전략 정의</block>
   <block id="a1232051e6c5e893c86adc35d8552a57" category="paragraph">백업 작업을 생성하기 전에 백업 전략을 정의하면 데이터베이스를 성공적으로 복원하는 데 필요한 백업이 있는지 확인하는 데 도움이 됩니다. SLA(서비스 수준 계약), RTO(복구 시간 목표) 및 RPO(복구 시점 목표)에 따라 백업 전략이 크게 결정됩니다.</block>
@@ -7735,7 +7617,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="504dab336faa025661b32deace06211b" category="paragraph">예를 들어 Exchange용 플러그인이 오전 8시에 전체 및 트랜잭션 로그 백업을 수행하는 경우 또한 오후 5시에 전체 및 트랜잭션 로그 백업을 추가로 수행하면 최신 트랜잭션 로그 백업을 사용하여 오전 8시 사이에 언제든지 데이터베이스를 복원할 수 있습니다 오후 5시까지 운영됩니다 트랜잭션 로그를 사용할 수 없는 경우 Exchange용 플러그인은 시점 복원 작업만 수행할 수 있습니다. 그러면 Exchange용 플러그인에서 전체 백업을 완료한 시점으로 데이터베이스를 복원할 수 있습니다.</block>
   <block id="50d4934279cff62c1929dc7c0c7c715d" category="summary">사용자 환경에 Microsoft Exchange Server용 SnapCenter 플러그인을 설치하면 SnapCenter를 사용하여 Exchange 리소스를 백업할 수 있습니다.</block>
   <block id="6a9a694fbb40be17e9c2dd832436bce8" category="paragraph">여러 서버에서 동시에 실행되도록 여러 백업을 예약할 수 있습니다. 동일한 리소스에서 백업 및 복원 작업을 동시에 수행할 수 없습니다. 동일한 볼륨의 액티브 및 패시브 백업 복사본은 지원되지 않습니다.</block>
-  <block id="58f286cbafd33e30ed9fd4a95a26e0f7" category="paragraph"><block ref="58f286cbafd33e30ed9fd4a95a26e0f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="145f4e41c29b520e1d8d5a4e3691ae25" category="summary">데이터베이스가 리소스 그룹에 속하지 않은 경우 리소스 페이지에서 데이터베이스 또는 데이터베이스 가용성 그룹을 백업할 수 있습니다.</block>
   <block id="3b149cd899fbd2201eebaa6d8ac21929" category="doc">Exchange 데이터베이스를 백업합니다</block>
   <block id="da6f15c5790afdf8cafcbd8f903edb93" category="list-text">백업 작업에서 사용 중인 애그리게이트를 데이터베이스에서 사용하는 SVM에 할당해야 합니다.</block>
@@ -7744,9 +7625,7 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="860213bd7e47ab530bb0265db0d4d02a" category="cell">* 모범 사례: * 활성 및 수동 데이터베이스의 백업을 동시에 실행하지 마십시오. 경쟁 조건이 발생할 수 있으며 백업 중 하나가 실패할 수 있습니다.</block>
   <block id="1aa4e724dd9a6c283aa6653b764530f0" category="list-text">왼쪽 탐색 창에서 * 리소스 * 를 클릭한 다음 목록에서 * Microsoft Exchange Server 플러그인 * 을 선택합니다.</block>
   <block id="56211ba6636186607e13945dac559a10" category="list-text">리소스 페이지의 * 보기 * 목록에서 * 데이터베이스 * 또는 * 데이터베이스 가용성 그룹 * 을 선택합니다.</block>
-  <block id="6da272f1d69c440674470ba19591ba05" category="paragraph">리소스 페이지에서 을(를) 선택합니다 <block ref="362bbfc4e46b557d6a4f1f7a4cbeaf25" category="inline-image-macro-rx" type="image"></block> 아이콘은 데이터베이스가 비NetApp 스토리지에 있음을 나타냅니다.</block>
   <block id="0ad1c36a6c3e0a80135136739263c1d7" category="admonition">DAG에서 액티브 데이터베이스 복제본이 타사 스토리지에 있고 하나 이상의 패시브 데이터베이스 복제본이 NetApp 스토리지에 상주하는 경우 데이터베이스를 보호할 수 있습니다.</block>
-  <block id="f4fccf161b5e67001656d817cbe815c9" category="paragraph">를 클릭합니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 누른 다음 호스트 이름과 데이터베이스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 * 를 클릭할 수 있습니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 눌러 필터 창을 닫습니다.</block>
   <block id="bb40ccbb928b274cb38a895aef70f856" category="list-text">데이터베이스를 백업하려면 데이터베이스 이름을 클릭합니다.</block>
   <block id="8373034f279dfd1570ec179c090b858c" category="list-text">토폴로지 뷰가 표시되면 * 보호 * 를 클릭합니다.</block>
   <block id="c5f4c29439aa6c78216cfa3f9865548c" category="list-text">데이터베이스 보호 리소스 마법사가 표시되면 3단계를 계속 진행합니다.</block>
@@ -7814,7 +7693,6 @@ NetApp ® Single Mailbox Recovery는 2023년 5월 12일 EOA(End of Availability)
   <block id="1bbe027c3f1875faca6a0e19b110374a" category="list-text">리소스 그룹에 서로 다른 호스트의 데이터베이스가 여러 개 있는 경우 네트워크 문제로 인해 일부 호스트의 백업 작업이 늦게 시작될 수 있습니다. 의 값을 구성해야 합니다<block ref="d64fa5ed6e4f9d90354e90ccc68fcee6" prefix=" " category="inline-code"></block> 인치<block ref="0ed3c2119f203df035d396aaee45a14a" prefix=" " category="inline-code"></block> 를 사용합니다<block ref="c49971dbd0f66cf4e6b62fc441967947" prefix=" " category="inline-code"></block> PowerShell cmdlet.</block>
   <block id="a1d7cae473cc035fb76e1540b76e2763" category="list-text">리소스 그룹에 NetApp 및 비 NetApp 스토리지에 액티브/패시브 데이터베이스 복사본이 있는 데이터베이스 또는 데이터베이스 가용성 그룹이 포함되어 있고, 백업 작업 생성 시 선택할 서버의 액티브 복제본 * 또는 * 백업 복제본 * 옵션을 선택한 경우 그런 다음 백업 작업이 경고 상태가 됩니다.</block>
   <block id="b9c7ed41d7e2f0a91ab873b63037fa09" category="paragraph">백업이 NetApp 스토리지의 액티브/패시브 데이터베이스 복사본에 대해 성공하고 NetApp이 아닌 타사 스토리지의 액티브/패시브 데이터베이스 복사본에 대해서는 백업이 실패합니다.</block>
-  <block id="d9ad3509ed74d62d9925203b0b85cc8b" category="paragraph">검색 상자에 리소스 그룹 이름을 입력하거나 * 를 클릭하여 리소스 그룹을 검색할 수 있습니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 누른 다음 태그를 선택합니다. 그런 다음 * 를 클릭할 수 있습니다<block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block>를 눌러 필터 창을 닫습니다.</block>
   <block id="da88dc68f2a712cc761152a071758b5d" category="summary">PowerShell cmdlet을 사용하여 백업 및 복원하기 전에 SVM(Storage Virtual Machine) 연결과 자격 증명을 생성해야 합니다.</block>
   <block id="8a09c01ad5dee966673a5026d38e1304" category="doc">Exchange Server용 PowerShell cmdlet을 사용하여 스토리지 시스템 연결과 자격 증명을 생성합니다</block>
   <block id="a1b6133c4b2ef7fa302d10ffdc07c0eb" category="list-text">를 사용하여 PowerShell 연결 세션을 시작합니다<block ref="5127bb5818426c9a226f86808b688df6" prefix=" " category="inline-code"></block> cmdlet.</block>
@@ -7831,7 +7709,6 @@ NetApp ® Single Mailbox Recovery는 2023년 5월 12일 EOA(End of Availability)
   <block id="96b6fde24fc45821a7c8c021ba21b20b" category="list-text">왼쪽 탐색 창에서 * 리소스 * 를 클릭한 다음 리소스 페이지의 왼쪽 위 모서리에 있는 플러그인 드롭다운 목록에서 * Microsoft Exchange Server * 를 선택합니다.</block>
   <block id="71edd90271636e3f12b43102371d4d7d" category="list-text">리소스 페이지의 * 보기 * 드롭다운 목록에서 * 데이터베이스 * 또는 * 데이터베이스 가용성 그룹 * 또는 * 리소스 그룹 * 을 선택합니다.</block>
   <block id="322a7c54d7c7799de3e202746d568ea4" category="paragraph">모든 데이터베이스와 DAG는 DAG 또는 호스트 이름과 함께 FQDN 형식으로 표시되므로 여러 데이터베이스를 구별할 수 있습니다.</block>
-  <block id="db8c73281f0636096f5bd11fbb13289a" category="paragraph">을 클릭합니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 호스트 이름과 Exchange Server를 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭할 수 있습니다 <block ref="fec415d0a77b873d1abe850650ad2d07" category="inline-image-macro-rx" type="image"></block> 를 눌러 필터 창을 닫습니다.</block>
   <block id="100eb6faf67bf674d493eae8a5daad8d" category="paragraph">리소스는 리소스 이름, 데이터베이스 가용성 그룹 이름, 데이터베이스가 현재 활성 상태인 서버, 복제본이 있는 서버, 마지막 백업 시간 및 전체 상태 등의 정보와 함께 표시됩니다.</block>
   <block id="fded0b659a27c194139769a9325685fa" category="list-text">데이터베이스가 비 NetApp 스토리지에 있는 경우 백업을 사용할 수 없음 이 전체 상태 열에 표시됩니다.</block>
   <block id="64e0044566e982c4c7cc1ae9310cc119" category="paragraph">DAG에서 액티브 데이터베이스 복제본이 타사 스토리지에 있고 하나 이상의 패시브 데이터베이스 복제본이 NetApp 스토리지에 있는 경우 보호되지 않음 이 * Overall Status * 열에 표시됩니다.</block>
@@ -7964,12 +7841,10 @@ NetApp ® Single Mailbox Recovery는 2023년 5월 12일 EOA(End of Availability)
   <block id="7cb4d9086d6c1cf01b806f319a85cc63" category="list-text">사용 가능한 리소스 섹션에서 리소스를 선택한 다음 오른쪽 화살표를 클릭하여 선택한 리소스 섹션으로 이동합니다.</block>
   <block id="40d8f5c9b7ab33a156de7775f928f1c6" category="paragraph">Microsoft Exchange Server용 SnapCenter의 리소스 그룹은 스냅샷 복사본당 30개 이상의 데이터베이스를 가질 수 없습니다. 하나의 리소스 그룹에 30개 이상의 데이터베이스가 있는 경우 추가 데이터베이스를 위해 두 번째 스냅샷 복사본이 생성됩니다. 따라서 기본 백업 작업 아래에 2개의 하위 작업이 생성됩니다. 보조 복제가 있는 백업의 경우 SnapMirror 또는 SnapVault 업데이트가 진행 중일 때 두 하위 작업의 업데이트가 겹치는 시나리오가 있을 수 있습니다. 로그가 작업이 완료되었음을 나타내더라도 기본 백업 작업은 계속 계속 실행됩니다.</block>
   <block id="615d8aed25e6e033e2c4a35b84715c0e" category="admonition">백업 작업 생성 시 선택할 서버에 대한 * 백업 복사본 * 옵션이 정책에 포함된 경우 하나 이상의 서버를 선택할 수 있는 서버 선택 옵션이 표시됩니다. 서버 선택 옵션에는 선택한 데이터베이스가 NetApp 스토리지에 있는 서버만 나열됩니다.</block>
-  <block id="325c8572dc9de1be94418b7cc6a7a127" category="list-text">선택한 정책에 대한 일정 구성 섹션에서 * 를 클릭합니다<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>일정을 구성하려는 정책에 대한 * 스케줄 구성 * 열에 있습니다.</block>
   <block id="13d62cafc9cfc5929565224152d9294b" category="paragraph">정책에 나열된 각 빈도에 대해 이 작업을 수행해야 합니다. 구성된 스케줄은 선택한 정책에 대한 스케줄 구성 섹션의 * Applied Schedules * 열에 나열됩니다.</block>
   <block id="632e8f771f2b94f3016767f9170f82e3" category="paragraph">이메일 알림의 경우 GUI 또는 PowerShell 명령을 사용하여 SMTP 서버 세부 정보를 지정해야 합니다<block ref="997c102f406bdf4b18d046c49ffaa8f9" prefix=" " category="inline-code"></block>.</block>
   <block id="5060fe17eb15393a38b634cfabf7122a" category="summary">Exchange 데이터베이스를 보호하려면 Microsoft Exchange Server용 SnapCenter 플러그인을 설치하고 설정해야 합니다.</block>
   <block id="31db120ce3e7f7d5198a060e87905d01" category="doc">Microsoft Exchange Server용 SnapCenter 플러그인 설치 워크플로우</block>
-  <block id="de378859031a77aae5e0ad69c312f9d6" category="image-alt">SCE 설치 구성 워크플로</block>
   <block id="ba8cc99b4cfaa3f9d3c3f0a8380082c0" category="doc">Exchange 데이터베이스에 대한 복구 작업을 취소합니다</block>
   <block id="442b64d998d026e5e41a7f2456755c85" category="summary">SnapCenterAdd 호스트 페이지를 사용하여 Windows 호스트를 추가할 수 있습니다. Exchange용 플러그인은 지정된 호스트에 자동으로 설치됩니다. 이는 플러그인을 설치하는 데 권장되는 방법입니다. 호스트를 추가하고 개별 호스트 또는 클러스터에 대한 플러그인을 설치할 수 있습니다.</block>
   <block id="43e4843cc378c4665771060dbab161eb" category="doc">호스트를 추가하고 Exchange용 플러그인을 설치합니다</block>
@@ -8037,11 +7912,8 @@ SMBR 사용 방법에 대한 자세한 내용은 을 참조하십시오<block re
   <block id="c7f88523eb9618512db4280fed17383f" category="paragraph">이 예에서는 지정된 정책 및 리소스를 사용하여 새 Exchange DAG(Database Availability Group) 백업 리소스 그룹을 생성합니다.</block>
   <block id="16cb514584e7d79dbe2308dbbf4bbf37" category="paragraph">이 예에서는 보조 스토리지에 새 백업을 생성합니다.</block>
   <block id="691fa56b0f1b19ab3099a9a59ce15434" category="paragraph">이 예는 특정 작업 ID에 대한 작업 요약 보고서를 표시합니다.</block>
-  <block id="c6f3b6a232739129385caa78e571328f" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조하십시오<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="0f14951f7fd1d656890413b5b92b9059" category="summary">SnapCenter를 사용하여 하나 이상의 백업을 활성 파일 시스템에 복구함으로써 Exchange 데이터베이스를 복구할 수 있습니다.</block>
   <block id="c37b0bdb3c7a24db287508745921aed4" category="paragraph">다음 워크플로에서는 Exchange 데이터베이스 복원 작업을 수행해야 하는 순서를 보여 줍니다.</block>
-  <block id="2d1eae8ec36b7998c11e835920d1606c" category="paragraph"><block ref="2d1eae8ec36b7998c11e835920d1606c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2d68b9458c6165a5eeeb8d311718b600" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업 및 복원 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="c8399eb92bca49a664acc7e0445d090e" category="inline-link-rx"></block>.</block>
   <block id="f269de38eaba1074c91b8d4834b8f9fe" category="summary">Exchange용 플러그인을 사용하여 Exchange Server 데이터베이스를 백업 및 복원할 수 있습니다.</block>
   <block id="7fc349d8cb7afc38c854d192b59d0edb" category="doc">Microsoft Exchange Server용 SnapCenter 플러그인으로 수행할 수 있는 작업</block>
   <block id="9cbd3935a09386c8074fae42744854a0" category="list-text">Exchange DAG(데이터베이스 가용성 그룹), 데이터베이스 및 복제 세트의 활성 인벤토리를 보고 관리합니다</block>
@@ -8305,4 +8177,131 @@ SMBR 사용 방법에 대한 자세한 내용은 을 참조하십시오<block re
   <block id="ad569cc1cca820033bb20ffe1d5bc4a5" category="paragraph">AIX 7.1 이상</block>
   <block id="9e19caeb431a5e29a1a63e3cee4b36c9" category="inline-link">ONTAP을 사용한 Oracle 데이터 보호</block>
   <block id="d118010bb2b3542007c6749bfd237123" category="list-text"><block ref="d118010bb2b3542007c6749bfd237123" category="inline-link-rx"></block></block>
+  <block id="c1a48c7749bed3ece715469018ee33a2" category="inline-image-macro">활동 아이콘</block>
+  <block id="67f40ea5fdbc92cd5c852a538826cbf4" category="list-text">백업 작업을 시작한 후 작업 창에서 * * * 를<block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block>클릭하여 가장 최근의 5개 작업을 봅니다.</block>
+  <block id="8bfbc01abcd17658a9cac51f6510934e" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>있습니다.</block>
+  <block id="29b6ba973b866808257e91ba08b55aac" category="list-text">클론 작업을 시작한 후 <block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block> Activity 창을 클릭하여 가장 최근의 5개 작업을 봅니다.</block>
+  <block id="ec3cd535f5d92020052e243132c0c487" category="list-text">복구 작업을 시작한 후 <block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block> Activity(작업) 창을 클릭하여 5개의 가장 최근의 작업을 봅니다.</block>
+  <block id="28a7ed30dd2aba8bc6a527f3f5882c4b" category="inline-image-macro">취소 아이콘</block>
+  <block id="d96d64aa5068f62f6023fed069016b41" category="list-text"><block ref="81f7bbf99e4090ab5483a3cd95382dc2" category="inline-image-macro-rx" type="image"></block> 취소됨</block>
+  <block id="b630478df4d6cf0a952d6dc7f39a7398" category="inline-image-macro">필터 아이콘</block>
+  <block id="75c43dfa09fd33ec50ad9523e384b113" category="list-text">백업 작업만 나열되도록 목록을 필터링하려면 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 클릭합니다.</block>
+  <block id="58d5d8d34dda65e7d6b6683db348677f" category="list-text">클론 작업만 나열되도록 목록을 필터링하려면 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 클릭합니다.</block>
+  <block id="3db25592a158b58973a37b2153941e49" category="list-text"><block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block>Activity(활동) 패널을 클릭하여 가장 최근의 5개 작업을 봅니다.</block>
+  <block id="dc72b46d45b54aaf8fcbd9182344ca4f" category="list-text">복원 작업만 나열되도록 목록을 필터링하려면 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 클릭합니다.</block>
+  <block id="eefec303079ad17405c889e092e105b0" category="inline-image-macro">분할</block>
+  <block id="7afb33533c522db05f2852d26374b72a" category="list-text">복사본 관리 보기에서 복제된 리소스(예: 데이터베이스 또는 LUN)를 선택한 다음 ** * * 를 클릭합니다<block ref="b53821d0420e47a1bec99612ea55fe06" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="2e058f605716b945e61377c0df0687de" category="list-text">백업을 선택한 다음 을 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>클릭합니다.</block>
+  <block id="7495c2e60977b03d4fd9f88701c5a72c" category="inline-image-macro">추가 아이콘</block>
+  <block id="14726728af6158ee595d6fedee05c2f7" category="list-text"><block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>아이콘을 클릭하고 * 서비스 시작 * 또는 * 서비스 다시 시작 * 을 클릭합니다.</block>
+  <block id="783a4d6f23877e2fba6250c05a4f21f6" category="list-text">아이콘을 클릭한 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block> 다음 * Suspend Schedule * 을 클릭하여 이 플러그인의 호스트를 유지 관리 모드로 전환합니다.</block>
+  <block id="7dd024354fe8487d857c0a0818270399" category="list-text">을 클릭한 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>다음 * 확인 * 을 클릭합니다.</block>
+  <block id="781ffefd65873ffc476623160ecbe609" category="list-text">클론을 선택한 다음 를 클릭합니다 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="f89f0ec412a77c24f996a08f409d1820" category="image-alt">리소스 및 정책</block>
+  <block id="daed8c1d6289df8afc01921973a5d713" category="paragraph">사용자 정의 SnapCenter 플러그인을 만들 수 있는 프레임워크를 제공하여 다른 표준 또는 사용자 지정 애플리케이션 및 데이터베이스에서도 데이터 보호가 지원됩니다. 따라서 동일한 단일 창에서 다른 애플리케이션과 데이터베이스의 데이터를 보호할 수 있습니다. NetApp은 이 프레임워크를 활용하여 IBM DB2, MongoDB 및 MySQL용 SnapCenter 맞춤형 플러그인을 출시했습니다</block>
+  <block id="5daf7cd6936ac58722973bae3cdaffba" category="paragraph">Windows cmdlet에 대한 자세한 내용은 을<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="8cd61d163e269d0c983a3b8834807153" category="paragraph">사용자 지정 플러그인은 커뮤니티를 통해 지원됩니다.</block>
+  <block id="34d41de6bbbd59c588068d1c2b2e073d" category="paragraph">VMware vSphere용 SnapCenter 플러그인용 CA 인증서를 구축할 수도 있습니다. 자세한 내용은 을<block ref="bdfc8d677279c2d2dc7a5041c41cc2d9" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="85f6b6009517f7b0e7f33fd0f974822d" category="image-alt">F5 워크플로를 구성합니다</block>
+  <block id="31c76694e0bd0adbd4e7500aae1dc43f" category="paragraph">자세한 내용은 을<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="31152c60a83a3da780e5073389e4b747" category="inline-image-macro">리소스 그룹에서 정책을 추가합니다</block>
+  <block id="4b7342aa2301dc65d846bc7f9824da4b" category="list-text">소프트웨어 페이지의 라이센스 섹션에서 * 추가 * ()를 선택합니다<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="d5a64462b6bfb86580e5409f2f5578a7" category="paragraph">cmdlet에 대한 자세한 내용은 을<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="10c463026bbaee0709b93b0139ba3d53" category="paragraph">사용 권한 목록에 대한 자세한 내용은 을 참조하십시오 <block ref="2901d46777c33f0a10c5ed76244cf8df" category="inline-link-macro-rx"></block>.</block>
+  <block id="ec43248482bbb71ea2071b13b6f5e901" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 Get-Help command_name을 실행하여 얻을 수 있습니다. 또는 를 참조할 수도<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>있습니다.</block>
+  <block id="284000a1d21bf26a846db28aa42c4b2b" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조하십시오<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>.</block>
+  <block id="9c9f94e7cbd0d5165065429ff1228556" category="paragraph">SnapCenter GUI 사용 외에도 PowerShell cmdlet을 사용하여 스크립트를 생성하여 구성, 백업 및 복원 작업을 수행할 수 있습니다. 일부 cmdlet은 SnapCenter 릴리즈마다 변경될 수 있습니다. 에<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block> 자세한 내용이 있습니다.</block>
+  <block id="2139c119ff31dd3d0c3baf0c94dca790" category="list-text"><block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>새 도메인을 등록하려면 클릭합니다.</block>
+  <block id="8684f559da47ab78b97eaa1f4dd2e125" category="paragraph">선택 사항: * 아이콘을 클릭하여 다른 스토리지 시스템의 볼륨, LUN 및 qtree를 더 추가할 수<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="16b2f3ca612bbc281da30f47d8745ad6" category="paragraph">검색 상자에 자원 그룹 이름을 입력하거나 을 클릭한 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>다음 태그를 선택하여 자원 그룹을 검색할 수 있습니다. 그런 다음 을 클릭하여 필터 창을 닫을 수 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 있습니다.</block>
+  <block id="f8048dee25d91b4b232ff5b105d0eaae" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 get-Help_command_name_을 실행하여 얻을 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block></block>
+  <block id="88dc295c54875da0f3835ed4a507d948" category="paragraph">* * 를<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 클릭한 다음 호스트 이름과 리소스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭하여 필터 창을 닫을 수 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 있습니다.</block>
+  <block id="de442c1c5f086f8cd46c5e1596a736e0" category="inline-image-macro">응용 프로그램 설정</block>
+  <block id="b007c2553f690c5642e3c051e56c8888" category="paragraph"><block ref="b007c2553f690c5642e3c051e56c8888" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d2c3c2916d625cb25596f968eda001b4" category="admonition">* * 를 클릭하여 정책을 만들 수도<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="ded3696a8d4896a397105d3cd2816853" category="list-text">일정을 구성하려는 정책의 스케줄 구성 열에서 * * * 를 클릭합니다<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="5d8e722e73c6f5e985e5a6bfc5d367ee" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. SnapCenter cmdlet 도움말 및 cmdlet 참조 정보에 PowerShell cmdlet에 대한 자세한 정보가 포함되어 있습니다. <block ref="6d51569562beea1c35d699fadd1a7304" category="inline-link-rx"></block>..</block>
+  <block id="903ffff09a2c4fc90564138e0bd806c1" category="list-text">(선택 사항) 을 클릭하고 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 호스트 이름을 선택합니다.</block>
+  <block id="21ace889b71fc27e50261e003179aba6" category="paragraph">그런 다음 을 클릭하여 필터 창을 닫을 수 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 있습니다.</block>
+  <block id="e4552d306d7b596aa0769e749c461897" category="list-text">Configure Schedules 열에서 구성할 정책에 대해 * * * 를 클릭합니다<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="58500be789107a86aa8893793e67951d" category="inline-image-macro">클론을 분할합니다</block>
+  <block id="c2ee757815f97500ab21bc37d2fd012f" category="list-text">클론을 선택한 다음 을 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block> 클릭하여 클론을 삭제하거나 을 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block> 클릭하여 클론을 분할합니다.</block>
+  <block id="ace2594bb6a64aadbacd4be39091a66e" category="list-text">(선택 사항) * 를 클릭한<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>다음 호스트 이름을 선택합니다.</block>
+  <block id="c8423c98c01c2381cdca31eeba6dc9c8" category="paragraph">그런 다음 * * 를 클릭하여 필터 창을 닫을 수<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="8417c17647830ac0967b3e8a56e97a71" category="image-alt">HANA 플러그인 설치 워크플로</block>
+  <block id="6da91559216fb5698528ab519521e6d8" category="paragraph">명령에 사용할 수 있는 매개 변수와 해당 설명에 대한 정보는 _get-Help command_name_을 실행하여 얻을 수 있습니다. 또는 을 참조할 수도<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>있습니다.</block>
+  <block id="9f99e4f096609928f4a9d0c1f80a8176" category="paragraph"><block ref="6d51569562beea1c35d699fadd1a7304" category="inline-link-rx"></block>..</block>
+  <block id="dc6eece0d1c3cc7890a8af82421c5ad8" category="image-alt">계정으로 실행</block>
+  <block id="e13720033977db6e0527dfee3b780f5b" category="list-text">클론을 삭제하려면 표에서 클론을 선택한 다음 을 클릭합니다 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="724b241ff2cdab2c1bc1d87a3ab30bb4" category="list-text">클론을 분할하려면 표에서 클론을 선택한 다음 을 클릭합니다 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="6b77b088a166c6def22b47133c882582" category="paragraph">NetApp은 또한 MySQL, MAXDB, DB2, Sybase, DPGLUE, MongoDB, ORASCPM 및 PostgreSQL 맞춤형 플러그인</block>
+  <block id="9ef736e00e9830a4ee825444862d9685" category="paragraph">MySQL 또는 DB2 애플리케이션을 관리하려는 경우 NetApp에서 제공하는 MySQL 및 DB2 사용자 지정 플러그인을 사용할 수 있습니다.</block>
+  <block id="d9356da5000cd956b06d2be3b1fe59b0" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block></block>
+  <block id="fe1f6ec78b7a8d6869a93911e4f70d13" category="paragraph">를 클릭한 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>다음 호스트 이름과 리소스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭하여 필터 창을 닫을 수 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 있습니다.</block>
+  <block id="e991a5b99682a88e821ee149bc42973f" category="admonition">을 클릭하여 정책을 만들 수도 <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="361c2c0b73608170a03792b8c87b4439" category="list-text">일정을 구성할 정책에 대한 Configure Schedules 열을 클릭합니다 <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> .</block>
+  <block id="cfb5b4c0c8592af00f49aa8cf998ed5b" category="paragraph">검색 상자에 자원 그룹 이름을 입력하거나 태그를 클릭하고 선택하여 자원 그룹을 검색할 수 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 있습니다. 그런 다음 을 클릭하여 필터 창을 닫을 수 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 있습니다.</block>
+  <block id="e6e298eeeedc2febb450da6a37c82c75" category="paragraph">PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>.</block>
+  <block id="381c0680e35a58c0ed8ef28565bd6ddd" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>.</block>
+  <block id="e675961e1647f1890d1f6a4b7a867792" category="image-alt">플러그인을 설치 및 구성합니다</block>
+  <block id="3875f4e2415c54c6fac07c34c482807f" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block>.</block>
+  <block id="82df92bf63205eb90f0513c131abc2dd" category="list-text">클론을 삭제하려면 표에서 클론을 선택하고 를 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block> 클릭하여 클론을 삭제합니다.</block>
+  <block id="5fe8cf0d0f98d4fff0cd2b016d0d8fc6" category="inline-image-macro">Exchange 플러그인 설치 워크플로</block>
+  <block id="f567437e701ce2413156c48143e5757d" category="paragraph"><block ref="f567437e701ce2413156c48143e5757d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb62fbb794888232bcd99a94764ba3fb" category="image-alt">리소스 그룹 정책입니다</block>
+  <block id="8996075026eb9ba4042ef8a426b775a4" category="paragraph"><block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>[]</block>
+  <block id="1c444a63c06a8557746153e27b1da753" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업 및 복원 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>.</block>
+  <block id="cab8e98ca5648936d9681023a189ff82" category="inline-image-macro">지원되지 않는 아이콘입니다</block>
+  <block id="7f47dd3c5dd866d40b778b95b42cc2dc" category="paragraph">리소스 페이지에서 <block ref="284aab9e75d833ac22d00193abde38d4" category="inline-image-macro-rx" type="image"></block> 아이콘은 데이터베이스가 NetApp이 아닌 스토리지에 있음을 나타냅니다.</block>
+  <block id="df2bffc03e6082b490c6b2d988187ed8" category="paragraph">* 를<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>클릭한 다음 호스트 이름과 데이터베이스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 * * 를 클릭하여 필터 창을 닫을 수<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="fd91f8a2614ba08f70cfa0820abd4a9d" category="inline-image-macro">리소스 그룹에서 정책을 추가합니다</block>
+  <block id="2067212b1a74c5413efe27ca935f9045" category="admonition">* * 를 클릭하여 정책을 만들 수도<block ref="abfdd3a1b0250a5a329db404a7dbbb7a" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="5c72942e47dd59d535a0243e01b915c5" category="paragraph">검색 상자에 자원 그룹 이름을 입력하거나 * * 를 클릭한 다음 태그를 선택하여 자원 그룹을 검색할 수<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>있습니다. 그런 다음 * * 를 클릭하여 필터 창을 닫을 수<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="70263a9abe8afc22f960f01a630b5324" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조하십시오.<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block></block>
+  <block id="2ea0725e7eb85750286355cab646b6c6" category="list-text">선택한 정책에 대한 스케줄 구성 섹션에서 스케줄을 구성할 정책에 대한 * 스케줄 구성 * 열에서 * * * * 를 클릭합니다<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="a76a81f87730cc587fdae2f40fc9d18b" category="paragraph"><block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>호스트 이름 및 Exchange Server를 클릭하여 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭하여 필터 창을 닫을 수 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 있습니다.</block>
+  <block id="44040e214e919d86d6a1f3f26db3d22c" category="inline-image-macro">편집 아이콘</block>
+  <block id="68819c7042f13f544d27a782b1c23806" category="list-text">을 <block ref="b4ece97e1b8d14f42e755a2c424f87a6" category="inline-image-macro-rx" type="image"></block> 클릭하여 값을 수정합니다.</block>
+  <block id="83e6465f5f218f66388c0caf2b844f54" category="list-text">을 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block> 클릭하여 값을 수정합니다.</block>
+  <block id="d1f43f7b8d3d193845fa35a92bbdd6a6" category="paragraph">검색 상자에 자원 그룹 이름을 입력하거나 * * 를 클릭한 다음 태그를 선택하여 자원 그룹을 검색할 수<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>있습니다. 그런 다음 * * 를 클릭하여 필터 창을 닫을 수<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="c00a655ac4b7e93c83b7d1e532a271e3" category="list-text">* 를<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>클릭한 다음 호스트 이름과 데이터베이스 유형을 선택하여 리소스를 필터링합니다.</block>
+  <block id="cacbdf450009e97e65402177f3e41fcc" category="list-text">클론 복제된 리소스를 선택하고 을 클릭합니다 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="4eff9663ac217c5c9f84fbed42022a92" category="list-text">SAN 환경에 Oracle 데이터베이스가 있는 경우 가이드에 언급된 권장 사항에 따라 SAN 환경을<block ref="c4f7653512cf02eacb80aa4d3d06e4f7" category="inline-link-rx"></block> 구성해야 합니다.</block>
+  <block id="07ba2d5a3846c6b3dfc2d9cb2e6107d1" category="image-alt">Oracle 플러그인 설치 프로세스</block>
+  <block id="f4e54f1fe48ac3ce5112308b1eceabc9" category="list-text">를 클릭한 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>다음 호스트 이름과 데이터베이스 유형을 선택하여 리소스를 필터링합니다.</block>
+  <block id="b88a600858aba4216607e73befe07289" category="list-text">백업 작업을 시작한 후 <block ref="d25e85a9aab5150035d6e57f8aee647c" category="inline-image-macro-rx" type="image"></block> Activity(작업) 창을 클릭하여 가장 최근의 5개 작업을 봅니다.</block>
+  <block id="fce48a7377627de7fdbdbbde741ef45b" category="paragraph">* * 를 클릭하여 매개변수를 추가할 수<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="0e2e9e7f1721ffffec804696fc58c636" category="inline-image-macro">백업 정책을 제거합니다</block>
+  <block id="4b28387d946a835bf45d6762c60a1a9d" category="paragraph"><block ref="4b28387d946a835bf45d6762c60a1a9d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8a2ba757e81446f3bb13c549e71a6fe2" category="list-text">PDB 클론(targetCDB:PDBClone)을 선택한 다음 을 클릭합니다 <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="77d3c1cb2113d9485bc90fa558137e47" category="paragraph">를 클릭한 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>다음 호스트 이름과 데이터베이스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 아이콘을 클릭하여 필터 창을 닫을 수 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 있습니다.</block>
+  <block id="b0a03c472031a6c7aa5d5b5b5b98ff0a" category="list-text">복제된 리소스(예: 데이터베이스 또는 LUN)를 선택한 다음 을 클릭합니다 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="786cf29e0fae782cc54a46d06699640e" category="list-text">PDB 클론(targetCDB:PDBClone)을 선택한 다음 을 클릭합니다 <block ref="e2ebd4447eea3b032b0dc903c9e04c31" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="7a36bcf6a4d49e5a847d68db58f87a8c" category="paragraph">또는 또는 을 참조할 수도<block ref="868bc9c3fbc71eae2d899862af6d942e" category="inline-link-rx"></block><block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>있습니다.</block>
+  <block id="48c770c57902137969bad5ada66cdb23" category="paragraph">cmdlet을 실행하는 방법에 대한 자세한 내용은 를 참조하십시오<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block></block>
+  <block id="4b369d22fef677e7d31134db72dcd702" category="image-alt">LUN 매핑</block>
+  <block id="d14e8832c5a34c39186bce8b9bdf2fd8" category="paragraph">PowerShell cmdlet을 수동으로 또는 스크립트에서 사용하여 백업, 복원, 복구, 확인 및 클론 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말을 사용하거나 을 참조하십시오<block ref="804874efd19048a3cbaef16ba72547d7" category="inline-link-rx"></block></block>
+  <block id="515a2651f07e5f19f6a695c98dfe18c6" category="image-alt">워크플로를 복원합니다</block>
+  <block id="cb17a89f6b7dd4402f24df804e2b38c3" category="paragraph">* * 를 클릭하여 정책 마법사를 시작하여 정책을 생성할 수<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> 있습니다.</block>
+  <block id="439a373cb5b91d84db999b88f0f6a246" category="list-text">확인 일정을 구성할 정책을 선택한 다음 * * * * 를 클릭합니다<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="dcc66de93aefa3105fda8cbdb3cdc2cf" category="list-text">백업을 선택한 다음 * * * 를<block ref="11ec183c45ca833d0220ddbf2e2e1d98" category="inline-image-macro-rx" type="image"></block>클릭합니다.</block>
+  <block id="5ce54e4e2a1eeecb7ff1150fd6741eaf" category="list-text">를 클릭한 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>다음 호스트 이름을 선택하여 인스턴스를 필터링합니다.</block>
+  <block id="fab9a033dfbc33ab049bd62138584423" category="list-text"><block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>필터 창을 닫으려면 클릭합니다.</block>
+  <block id="72ef4e5f66a30ed58401ba4fc5c96212" category="list-text">선택한 정책에 대한 스케줄 구성 섹션에서 스케줄을 구성할 정책에 대한 스케줄 구성 열에 있는 * * * * 를 클릭합니다<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="c4fcce06d2389c100156c16a05a82d53" category="paragraph"><block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>호스트 이름과 SQL Server 인스턴스를 클릭하여 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭하여 필터 창을 닫을 수 <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> 있습니다.</block>
+  <block id="35c62343af99b514b96b86a9f912ab4e" category="image-alt">SQL 플러그인 설치 워크플로</block>
+  <block id="397018987f3e452840315e760f752436" category="paragraph">자세한 내용은 를<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="243a576831cdaafb2fb56f19e55b67d6" category="image-alt">Windows 플러그인 설치 워크플로</block>
+  <block id="286471197670cbf6786e397f076201eb" category="image-alt">Exchange 데이터베이스 백업 워크플로우</block>
+  <block id="fefbbf19306793dac5ce76554465473d" category="paragraph">PowerShell cmdlet을 수동으로 사용하거나 스크립트에서 사용하여 백업, 복원 및 클론 작업을 수행할 수도 있습니다. PowerShell cmdlet에 대한 자세한 내용은 SnapCenter cmdlet 도움말 또는 에<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block> 나와 있습니다.</block>
+  <block id="18ba29131e9f39451f6a0efd6b63dafe" category="paragraph">요구 사항을 충족하는 기존 정책이 없는 경우 기존 정책을 복사하여 수정하거나 를 클릭하여 정책 마법사를 시작하여 새 정책을 생성할 수 있습니다. <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="80594268749f867035de9885db91d7c7" category="list-text">선택한 정책에 대한 스케줄 구성 섹션에서 스케줄을 구성할 정책에 대한 스케줄 구성 열을 클릭합니다 <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> .</block>
+  <block id="ea89bd143074df04d399b2cef8e79bce" category="paragraph">요구 사항을 충족하는 기존 정책이 없는 경우 * * 를 클릭하여 새 정책을 생성하여 정책 마법사를 시작할 수<block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>있습니다.</block>
+  <block id="3b501ea9593b052af9f12070b6101991" category="paragraph">자세한 내용은 를<block ref="6c42f03aa0c367912025171ddcbb1f0d" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="79cfb9f00fa8ea603f631e679e453fad" category="paragraph">VMware vSphere용 SnapCenter 플러그인 제거에 대한 자세한 내용은 을 참조하십시오<block ref="cae8a6db54fa4da6d80207fee61e78d1" category="inline-link-rx"></block>.</block>
+  <block id="a04435aca3a9e6f78573fb57a1c04b07" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도 있습니다<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block></block>
+  <block id="1875bc7d35463727b044d94553d75c20" category="paragraph">또한 _Uninstall-SmHostPackage_cmdlet 및 필수 매개 변수를 사용하여 여러 호스트에서 플러그인을 제거할 수도 있습니다. cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 을 참조할 수도<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>있습니다.</block>
+  <block id="d1f68d146c3a156b97620bbf537dc143" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 를 참조할 수도<block ref="f03332b8749704621bfe232d591a600b" category="inline-link-rx"></block>있습니다.</block>
+  <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">여러 호스트를 업그레이드하려면 모든 호스트를 선택하고 를 클릭한 다음 * Upgrade * &gt; * OK * 를 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>클릭합니다.</block>
+  <block id="ae08501da5e1f78dacab0013886bb73e" category="image-alt">SnapCenter를 업그레이드합니다</block>
 </blocks>

@@ -24,7 +24,7 @@ summary: 개별 사용자 지정 플러그인 리소스가 리소스 그룹에 �
 . 왼쪽 탐색 창에서 * 리소스 * 를 클릭한 다음 목록에서 적절한 플러그인을 선택합니다.
 . 리소스 페이지의 * 보기 * 드롭다운 목록에서 리소스 유형에 따라 리소스를 필터링합니다.
 +
-을 클릭합니다 image:../media/filter_icon.gif[""]호스트 이름과 리소스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭할 수 있습니다 image:../media/filter_icon.gif[""] 를 눌러 필터 창을 닫습니다.
+를 클릭한 image:../media/filter_icon.gif["필터 아이콘"]다음 호스트 이름과 리소스 유형을 선택하여 리소스를 필터링합니다. 그런 다음 을 클릭하여 필터 창을 닫을 수 image:../media/filter_icon.gif["필터 아이콘"] 있습니다.
 
 . 백업할 리소스를 클릭합니다.
 . 리소스 페이지에서 사용자 지정 이름을 사용하려면 * 스냅샷 복사본에 사용자 지정 이름 형식 사용 * 확인란을 선택한 다음 스냅샷 복사본 이름의 사용자 지정 이름 형식을 입력합니다.
@@ -58,7 +58,7 @@ WAFL 정합성 보장 지점을 강제로 사용하지 않으려면 이 옵션�
 
 |===
 +
-image:../media/application_settings.gif[""]
+image:../media/application_settings.gif["응용 프로그램 설정"]
 
 .. Quiesce, Snapshot copy 및 unquiesce 작업에 대한 사전 및 사후 명령을 실행하려면 * Scripts * 화살표를 클릭합니다. 백업 작업을 종료하기 전에 사전 명령을 실행할 수도 있습니다.
 +
@@ -98,12 +98,12 @@ SnapCenter은 Windows용 플러그인을 사용하여 파일 시스템을 일관
 .. 드롭다운 목록에서 하나 이상의 정책을 선택합니다.
 +
 
-NOTE: 을 클릭하여 정책을 생성할 수도 있습니다 image:../media/add_policy_from_resourcegroup.gif[""].
+NOTE: 을 클릭하여 정책을 만들 수도 image:../media/add_policy_from_resourcegroup.gif["리소스 그룹에서 정책을 추가합니다"]있습니다.
 
 +
 선택한 정책에 대한 스케줄 구성 섹션에 선택한 정책이 나열됩니다.
 
-.. 을 클릭합니다 image:../media/add_policy_from_resourcegroup.gif[""] 스케줄을 구성할 정책에 대한 Configure Schedules 열에서
+.. 일정을 구성할 정책에 대한 Configure Schedules 열을 클릭합니다 image:../media/add_policy_from_resourcegroup.gif["리소스 그룹에서 정책을 추가합니다"] .
 .. policy_policy_name_에 대한 일정 추가 대화 상자에서 일정을 구성한 다음 * 확인 * 을 클릭합니다.
 +
 여기서, _policy_name_은 선택한 정책의 이름입니다.
